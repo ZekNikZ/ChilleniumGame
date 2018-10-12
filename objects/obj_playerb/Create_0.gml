@@ -1,4 +1,5 @@
 /// @description Shape Change Variables
+
 enum shape_change
 {
 	Square,
@@ -7,3 +8,5 @@ enum shape_change
 	Circle,
 	Rectangle
 }
+
+shape = shape_change.Square;
