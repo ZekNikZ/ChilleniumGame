@@ -4,6 +4,7 @@
 if (keyboard_check(ord("1")))
 {
 	shape = shape_change.Square; // Square	
+	image_index = 0;
 }
 
 
@@ -11,6 +12,7 @@ if (keyboard_check(ord("1")))
 if (keyboard_check(ord("2")))
 {
 	shape = shape_change.Triangle; // Triangle	
+	image_index = 1;
 }
 
 
@@ -18,6 +20,7 @@ if (keyboard_check(ord("2")))
 if (keyboard_check(ord("3")))
 {
 	shape = shape_change.Circle; // Circle	
+	image_index = 2;
 }
 
 
@@ -25,6 +28,7 @@ if (keyboard_check(ord("3")))
 if (keyboard_check(ord("4")))
 {
 	shape = shape_change.Chevron; // Square	
+
 }
 
 
@@ -32,6 +36,7 @@ if (keyboard_check(ord("4")))
 if (keyboard_check(ord("5")))
 {
 	shape = shape_change.Rectangle; // Square	
+
 }
 
 
