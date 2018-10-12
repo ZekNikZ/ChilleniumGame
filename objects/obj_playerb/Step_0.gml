@@ -1,4 +1,4 @@
-/// @description Shape Change
+/// @description Shape Change Code
 
 // Change Shape Square
 if (keyboard_check(ord("1")))
@@ -34,15 +34,5 @@ if (keyboard_check(ord("5")))
 	shape = shape_change.Rectangle; // Square	
 }
 
-/// Sprite Change 
-/*
-if (shape == shape_change.Square)
-{
-	
-}
 
-if (shape == shape_change.Triangle)
-{
-	
-}*/
 
