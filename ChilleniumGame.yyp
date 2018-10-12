@@ -90,14 +90,73 @@
             }
         },
         {
+<<<<<<< HEAD
+            "Key": "5e379194-7d07-41a0-9798-65c1188788ff",
+            "Value": {
+                "id": "e0526554-a1a7-47ff-802d-d4016e038981",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_idea\/spr_idea.yy",
+=======
             "Key": "6988fbcf-a0c1-4d9e-b0f9-113c13d11e90",
             "Value": {
                 "id": "5c7eb8a7-8cfd-498c-bdb6-20b13631f396",
                 "resourcePath": "sprites\\spr_player\\spr_player.yy",
+>>>>>>> master
                 "resourceType": "GMSprite"
             }
         },
         {
+<<<<<<< HEAD
+            "Key": "6b863834-b796-409b-986d-d7960a5468f9",
+            "Value": {
+                "id": "8a3c4377-c7a0-4398-bad0-c64a6768dc40",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/test_spr_player\/test_spr_player.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "89d9f17f-5d4f-4675-b677-4b52faed5f74",
+            "Value": {
+                "id": "78aee518-64ca-48b4-9445-dbd902249cdd",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "tilesets\/ts_walls\/ts_walls.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
+=======
+>>>>>>> master
             "Key": "a194c1dc-0f86-4e3a-a758-3eb0c0b19447",
             "Value": {
                 "id": "92e67725-1ee1-4aa3-b62b-8a921fffc73b",
