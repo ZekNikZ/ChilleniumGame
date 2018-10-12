@@ -400,6 +400,25 @@
             }
         },
         {
+            "Key": "e9d2eb2e-c894-4104-bec4-bcbaf626a622",
+            "Value": {
+                "id": "754a7310-0ce0-49bf-8d24-7d220bb0ec54",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "shaders\/shader0\/shader0.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "f375e351-8620-47fe-bccf-223d8625b39a",
             "Value": {
                 "id": "9a52d6c4-27e2-4522-80c3-88984095aefd",
