@@ -2,7 +2,7 @@
     "id": "0067dd49-5fbb-45ac-91b7-33b1742e0752",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_color",
+    "name": "obj_color_changer",
     "eventList": [
         {
             "id": "db30c517-8b42-4135-8b5c-c5e71ecec50a",

@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_StartMenu",
+    "name": "rm_main_menu",
     "id": "094dbb8b-30af-462e-8dbd-7674ff909971",
     "creationCodeFile": "",
     "inheritCode": false,
