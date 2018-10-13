@@ -13,21 +13,40 @@ h_move *= hsp;
 vsp += grav;
 
 // Jumping
-if (place_meeting(x, y + sign(vsp), obj_wall) && (key_jump)) {
-	vsp = -13;
+if (place_meeting(x, y + sign(vsp), obj_wall)) {
+	can_double = true;
+	if (key_jump) {
+	vsp -= 13;
 	in_air = true;
+	}
 }
 
+// Releasing Jump and Triangle Slam
 if (keyboard_check_released(vk_space)) && (in_air) {
 	if(shape == shape_change.Triangle) {
+		vsp = 0;
 		vsp += (grav * 30);
 		in_air = false;
 		image_yscale = -1;
 	}
-	else {
-	vsp += (grav * 10);
-	in_air = false;
+	else if (shape == shape_change.Circle) {
+		vsp = 0;
+		vsp += (grav * 10);
+		in_air = false;
+		can_double = true;
 	}
+	else {
+		vsp = 0;
+		vsp += (grav * 10);
+		in_air = false;
+	}
+}
+
+//Circle Double Jump
+if (shape == shape_change.Circle) && (can_double) && (key_jump) && (!in_air) {
+	vsp = 0;
+	vsp -= 13;
+	can_double = false;
 }
 
 // Horizontal Collision Check and Movement
