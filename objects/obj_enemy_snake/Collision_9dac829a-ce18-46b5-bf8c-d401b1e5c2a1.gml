@@ -1,13 +1,13 @@
 
 if (timer>60)
 {
-	if (global.gamecolor==activecolor.white)
+	if (global.gamecolor==COLOR.WHITE)
 	{
 		room_restart();
 	}
 	else
 	{
-		global.gamecolor=activecolor.white;
+		global.gamecolor=COLOR.WHITE;
 	}
 	timer=0;
 }
