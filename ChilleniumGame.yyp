@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "430c2515-2d07-41fb-b00e-71a0e51fee50",
+            "Value": {
+                "id": "68f37507-708e-4d39-a7a3-f0573c4b64c6",
+                "resourcePath": "objects\\obj_circle_unlock\\obj_circle_unlock.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "43377143-6ecb-4964-a16a-22d5ac747392",
             "Value": {
                 "id": "6303f324-bfc8-4233-8e1d-14b50b901927",
