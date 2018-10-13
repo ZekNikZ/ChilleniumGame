@@ -1,5 +1,5 @@
-var touching = instance_exists(test_obj_player);
-if (touching) with(test_obj_player) {
+var touching = instance_exists(obj_player);
+if (touching) with(obj_player) {
 	if (abs(speed) > 0) speed -= sign(speed);
 	
 	touching = instance_place(x, y + 1, obj_move_wall) == other.id;
@@ -8,12 +8,12 @@ if (touching) with(test_obj_player) {
 			case MOVEDIR.VERTICAL:
 				direction = 180 + 90 * other.dir;
 				speed = 25;
-				test_obj_player.y += other.dir * other.spd;
+				obj_player.y += other.dir * other.spd;
 				break;
 			case MOVEDIR.HORIZONTAL:
 				direction = 90 - 90 * other.dir;
 				speed = 25;
-				test_obj_player.x += other.dir * other.spd;
+				obj_player.x += other.dir * other.spd;
 				break;
 		}
 	}
@@ -22,7 +22,7 @@ if (touching) with(test_obj_player) {
 switch(move_dir) {
 	case MOVEDIR.VERTICAL:
 		if (touching) {
-			player_offset = test_obj_player.y - y;
+			player_offset = obj_player.y - y;
 		}
 		y = y + dir * spd;
 		if (y <= start_pos + bound_low) {
@@ -33,12 +33,12 @@ switch(move_dir) {
 			dir *= -1;
 		}
 		if (touching) {
-			test_obj_player.y = y + player_offset;
+			obj_player.y = y + player_offset;
 		}
 		break;
 	case MOVEDIR.HORIZONTAL:
 		if (touching) {
-			player_offset = test_obj_player.x - x;
+			player_offset = obj_player.x - x;
 		}
 		x = x + dir * spd;
 		if (x <= start_pos + bound_low) {
@@ -49,7 +49,7 @@ switch(move_dir) {
 			dir *= -1;
 		}
 		if (touching) {
-			test_obj_player.x = x + player_offset;
+			obj_player.x = x + player_offset;
 		}
 		break;
 }
