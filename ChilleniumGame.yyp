@@ -210,6 +210,25 @@
             }
         },
         {
+            "Key": "2e14475d-6c39-4962-980d-de71ddf513ac",
+            "Value": {
+                "id": "b7cfe22e-b9cd-42ee-90cb-a8cae6213afe",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/2e14475d-6c39-4962-980d-de71ddf513ac.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "30a74ebf-0cff-4b8a-885c-1299716544f9",
             "Value": {
                 "id": "0a8214ff-e8ff-4496-b5c9-75eb832be229",
@@ -1195,6 +1214,25 @@
                 ],
                 "resourcePath": "rooms\/rm_level_0\/rm_level_0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "f2764fab-a012-4055-b498-be061959146a",
+            "Value": {
+                "id": "514302e7-88c4-4a4c-ac44-f3a90ebcda4b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_color_controller\/obj_color_controller.yy",
+                "resourceType": "GMObject"
             }
         },
         {
