@@ -1,2 +1,2 @@
 /// @kill player
-room_restart();
+if(solid==true) room_restart();
