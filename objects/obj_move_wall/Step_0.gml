@@ -7,12 +7,12 @@ if (touching) with(test_obj_player) {
 		switch(other.move_dir) {
 			case MOVEDIR.VERTICAL:
 				direction = 180 + 90 * other.dir;
-				speed = 20;
+				speed = 25;
 				test_obj_player.y += other.dir * other.spd;
 				break;
 			case MOVEDIR.HORIZONTAL:
 				direction = 90 - 90 * other.dir;
-				speed = 20;
+				speed = 25;
 				test_obj_player.x += other.dir * other.spd;
 				break;
 		}
