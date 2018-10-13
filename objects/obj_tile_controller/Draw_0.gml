@@ -1,6 +1,6 @@
 spt_change_color();
 
-cnt++;
+//cnt++;
 if (cnt > 120) cnt = 0;
 //draw_text(20, 20, cnt);
 
