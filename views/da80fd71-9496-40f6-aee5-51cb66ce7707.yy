@@ -6,14 +6,20 @@
     "children": [
         "5ad1ba54-ff89-4d74-9b0e-ea046c97fea0",
         "934b2dc7-b8e3-4d31-9bd1-298a5a947c34",
+        "ca675731-1cb7-4458-b0a2-2ff76b4eee02",
         "47472d3f-cbdb-4921-a5e2-322d073f60af",
         "61ddab02-1619-4c39-bae7-97aa340a6ffb",
+        "59bf1eb7-9c5e-492a-8ce4-f0a8d14bfb3f",
         "266af62c-c1be-46c4-af54-b04216c06983",
         "d0096823-202e-4cea-9b1f-57bdf1c14622",
+        "e3a44dd6-8b4a-4be5-81c2-26d8cffbb2d1",
         "6126f337-c32b-4b75-8c7a-1e500b4662b7",
         "1b70dfea-f88e-41f1-b940-f5975f53dac7",
+        "54271022-ba24-43cc-9e7a-26864d0ce6a8",
         "f498c19b-8ebe-48db-9be9-04d17a585930",
-        "bd50a987-cf93-411d-82a3-7186f6f2eb48"
+        "bd50a987-cf93-411d-82a3-7186f6f2eb48",
+        "8415cea6-85e6-440e-bb66-795db52c1676",
+        "3ef71a6d-868a-4348-bba9-13efa010dd8f"
     ],
     "filterType": "GMSprite",
     "folderName": "characters",
