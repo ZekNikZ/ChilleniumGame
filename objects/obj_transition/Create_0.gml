@@ -25,4 +25,4 @@ enum activecolor
 	green
 }
 
-gamecolor = activecolor.white;
+global.gamecolor = activecolor.white;
