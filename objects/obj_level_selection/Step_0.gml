@@ -48,11 +48,36 @@ if (menu_x > gui_width+150) && (menu_committed != -1)
 {
 	switch (menu_committed)
 	{
-		case 5: spt_transition(TRANSITION_STATE.GOTO,rm_level_0); break;
-		case 4: spt_transition(TRANSITION_STATE.GOTO,rm_level_01); break;
-		case 3: spt_transition(TRANSITION_STATE.GOTO,rm_level_0); break;
-		case 2: spt_transition(TRANSITION_STATE.GOTO,rm_level_0); break;
-		case 1: spt_transition(TRANSITION_STATE.GOTO,rm_level_0); break;
+		case 5: 
+			spt_transition(TRANSITION_STATE.GOTO,rm_level_0); break;
+		case 4: 
+		{
+			//if()
+			{
+				spt_transition(TRANSITION_STATE.GOTO,rm_level_01); break;
+			}
+		}
+		case 3: 
+		{
+			//if ()
+			{
+				spt_transition(TRANSITION_STATE.GOTO,rm_level_0); break;
+			}
+		}
+		case 2: 
+		{
+			//if()
+			{
+				spt_transition(TRANSITION_STATE.GOTO,rm_level_0); break;
+			}
+		}
+		case 1: 
+		{	
+			//if()
+			{
+				spt_transition(TRANSITION_STATE.GOTO,rm_level_boss); break;
+			}
+		}
 		case 0: default: spt_transition(TRANSITION_STATE.GOTO,rm_main_menu); break;
 	}
 }

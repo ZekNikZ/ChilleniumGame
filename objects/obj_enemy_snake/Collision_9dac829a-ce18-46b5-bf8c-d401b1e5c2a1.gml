@@ -1,20 +1,12 @@
-if (other.shape = SHAPE.TRIANGLE && other.image_yscale = -1)
+if (solid==true)
 {
-	spt_screenshake(3, 30);
-	instance_destroy();
-}
-else
-{
-	if (timer>30)
+	if (other.shape = SHAPE.TRIANGLE && other.image_yscale = -1)
 	{
-		if (global.gamecolor==COLOR.WHITE)
-		{
-			room_restart();
-		}
-		else
-		{
-			global.gamecolor=COLOR.WHITE;
-		}
-		timer=0;
+		spt_screenshake(3, 30);
+		instance_destroy();
 	}
-}
+	else
+	{
+		room_restart();
+	}
+}	

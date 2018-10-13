@@ -77,6 +77,63 @@
             }
         },
         {
+            "Key": "02346a70-f0a8-4ec8-a826-c70a3ed8c51c",
+            "Value": {
+                "id": "52a1fa34-0d71-445e-b2a4-40c727f2fd6f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_boss_bullet\/obj_boss_bullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "071537fe-7a8b-40ac-81c8-91a07e5d5412",
+            "Value": {
+                "id": "2e0db864-a6d6-48b3-848b-60c505cc0c89",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/rm_level_boss\/rm_level_boss.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "075a2aea-ed7f-4975-a975-56436a010e8e",
+            "Value": {
+                "id": "eec3622c-cb4a-49b8-90df-a3fe0e656ca8",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/rm_level_03\/rm_level_03.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "07e75931-a5b8-403b-b798-861b035f95c5",
             "Value": {
                 "id": "b4a77f69-f6d2-42e9-824a-0f272b3b0507",
@@ -644,6 +701,25 @@
                 ],
                 "resourcePath": "scripts\/spt_enums\/spt_enums.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "50f51b8c-a0af-4f86-93a6-f618cd640aa4",
+            "Value": {
+                "id": "fd65a162-021e-4319-8b07-ad6defd18671",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_unlock_room\/obj_unlock_room.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1502,6 +1578,25 @@
             }
         },
         {
+            "Key": "b2e3e93d-9d48-4316-a596-8b19bfb630aa",
+            "Value": {
+                "id": "0164704f-044a-4ccd-812c-1cc57fe37cca",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_vis_wall_move_hidden\/spr_vis_wall_move_hidden.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b4ec11a0-f343-46f9-8ad7-871bb373000a",
             "Value": {
                 "id": "f9d1d6d9-8484-4618-9945-22215bceee90",
@@ -1730,6 +1825,25 @@
             }
         },
         {
+            "Key": "c2d7ade1-3d8c-4606-97f5-ef5bc25478f9",
+            "Value": {
+                "id": "bd96ca56-9257-4589-8747-f323e84e2078",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_enemy_snake_boss\/obj_enemy_snake_boss.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c4e55312-45ed-4e8c-ac60-51c87fb4fa77",
             "Value": {
                 "id": "07ac851a-0a29-4333-9e73-809b12dbc281",
@@ -1917,6 +2031,25 @@
                 ],
                 "resourcePath": "views\/d58fe0ce-5655-4ba7-bdff-3a510701f774.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d62d0da5-fbe5-4a9e-8049-7b98e1be7883",
+            "Value": {
+                "id": "332929e5-8461-46c5-ad0c-fc6e78e49798",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_boss_bullet\/spr_boss_bullet.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2430,6 +2563,25 @@
                 ],
                 "resourcePath": "views\/fb01ae09-3ca7-4eae-9e98-8346f81962e5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fb553acd-9357-429a-9b2e-a1ba9a8ac5d4",
+            "Value": {
+                "id": "26e7eba9-9bd1-4976-8ac2-81dda953dcf7",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_move_wall_hidden\/obj_move_wall_hidden.yy",
+                "resourceType": "GMObject"
             }
         },
         {
