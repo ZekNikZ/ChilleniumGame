@@ -1,13 +1,20 @@
-
-if (timer>60)
+if (other.shape = SHAPE.TRIANGLE && other.image_yscale = -1)
 {
-	if (global.gamecolor==COLOR.WHITE)
+	spt_screenshake(3, 30);
+	instance_destroy();
+}
+else
+{
+	if (timer>30)
 	{
-		room_restart();
+		if (global.gamecolor==COLOR.WHITE)
+		{
+			room_restart();
+		}
+		else
+		{
+			global.gamecolor=COLOR.WHITE;
+		}
+		timer=0;
 	}
-	else
-	{
-		global.gamecolor=COLOR.WHITE;
-	}
-	timer=0;
 }
