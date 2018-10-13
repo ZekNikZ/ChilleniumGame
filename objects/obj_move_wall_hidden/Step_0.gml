@@ -1,3 +1,17 @@
+if (!init) {
+	// Set initial direction and position
+	dir = start_dir;
+	switch(move_dir) {
+		case MOVE_DIR.HORIZONTAL:
+			start_pos = x;
+			break;
+		case MOVE_DIR.VERTICAL:
+			start_pos = y;
+			break;
+	}
+	init = true;
+}
+
 // Determine if the player is on the platform
 var touching = instance_exists(obj_player) && global.gamecolor == target_color;
 if (touching) with(obj_player) {
