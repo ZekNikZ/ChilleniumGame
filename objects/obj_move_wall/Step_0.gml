@@ -3,6 +3,8 @@ var touching = instance_exists(obj_player);
 if (touching) with(obj_player) {
 	if (abs(speed) > 0) speed -= sign(speed);
 	
+	touching = instance_position(x, y + 44, obj_move_wall) == other.id;
+	/*
 	touching = instance_place(x, y + 1, obj_move_wall) == other.id;
 	if (place_meeting(x, y, obj_move_wall)) {
 		switch(other.move_dir) {
@@ -18,6 +20,7 @@ if (touching) with(obj_player) {
 				break;
 		}
 	}
+	*/
 }
 
 // Move the platform (and possibly the player)
