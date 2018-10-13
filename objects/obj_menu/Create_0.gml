@@ -19,4 +19,4 @@ menu[1] = "Controls";
 menu[0] = "Quit";
 
 menu_items = array_length_1d(menu);
-menu_cursor = 2;
+menu_cursor = 3;

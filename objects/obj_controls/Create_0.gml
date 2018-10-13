@@ -13,8 +13,7 @@ menu_itemheight = font_get_size(fnt_menu);
 menu_committed = -1;
 menu_control = true;
 
-control[1] = "Return to Menu";
-control[0] = "Quit";
+menu[0] = "Return to Menu";
 
-menu_items = array_length_1d(control);
-menu_cursor = 2;
+menu_items = array_length_1d(menu);
+menu_cursor = 0;

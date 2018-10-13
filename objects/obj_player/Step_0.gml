@@ -102,34 +102,34 @@ if (player_control != false)
 // Square
 if (keyboard_check(ord("1"))) {
 	shape = SHAPE.SQUARE;
-	image_index = 0;
+	sprite_index = spr_player_square;
 }
 
 
 // Triangle
-//if (shp_triangle == 1)
+if (shp_triangle == 1)
 {
 	if (keyboard_check(ord("2"))) {
 		shape = SHAPE.TRIANGLE;
-		image_index = 1;
+		sprite_index = spr_player_triangle;
 	}
 }
 
 // Circle
-//if (shp_circle == 1)
+if (shp_circle == 1)
 {
 	if (keyboard_check(ord("3"))) {
 		shape = SHAPE.CIRCLE;
-		image_index = 2;
+		sprite_index = spr_player_circle;
 	}
 }
 
 // Change Shape Chevron
-//if (shp_chevron == 1)
+if (shp_chevron == 1)
 {
 	if (keyboard_check(ord("4"))) {
 		shape = SHAPE.CHEVRON;
-		image_index = 3;
+		sprite_index = spr_player_chev;
 	}
 }
 
