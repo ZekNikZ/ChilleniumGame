@@ -367,6 +367,14 @@
             }
         },
         {
+            "Key": "8d800fc0-8ed9-4cff-ba83-5ae71d689b7d",
+            "Value": {
+                "id": "13ec176e-ff85-4645-997b-deb605b660d0",
+                "resourcePath": "objects\\obj_controls\\obj_controls.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9167ade2-6cb7-4ed8-ae18-6bf502d6fd5c",
             "Value": {
                 "id": "f13cb695-16db-4252-81a7-37fefcf0b640",
@@ -476,6 +484,14 @@
                 "id": "6fea0b25-df1d-4d44-8e27-1308d7d3adc2",
                 "resourcePath": "sprites\/spr_color\/spr_color.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "aec5bf30-c7f7-4383-874b-f64c577a45be",
+            "Value": {
+                "id": "63780ff6-0361-4fe9-9a82-d2d48fa4a859",
+                "resourcePath": "rooms\\rm_menu_controls\\rm_menu_controls.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
