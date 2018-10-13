@@ -78,7 +78,7 @@
                     17,5,5,5,5,16,0,0,0,0,0,0,0,0,0,0
                 ]
             },
-            "tilesetId": "89d9f17f-5d4f-4675-b677-4b52faed5f74",
+            "tilesetId": "38052528-ea9e-4dea-9b9b-a2d389e9b49e",
             "userdefined_depth": false,
             "visible": true,
             "x": 0,
