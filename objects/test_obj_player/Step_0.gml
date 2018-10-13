@@ -66,36 +66,32 @@ if (keyboard_check(ord("1")))
 
 
 // Change Shape Triangle
-if (keyboard_check(ord("2")))
+if (shp_triangle == 1)
 {
-	shape = shape_change.Triangle; // Triangle	
-	image_index = 1;
+	if (keyboard_check(ord("2")))
+	{
+		shape = shape_change.Triangle; // Triangle	
+		image_index = 1;
+	}
 }
-
 
 // Change Shape Circle
-if (keyboard_check(ord("3")))
+if (shp_circle == 1)
 {
-	shape = shape_change.Circle; // Circle	
-	image_index = 2;
+	if (keyboard_check(ord("3")))
+	{
+		shape = shape_change.Circle; // Circle	
+		image_index = 2;
+	}
 }
-
 
 // Change Shape Chevron
-if (keyboard_check(ord("4")))
+if (shp_chevron == 1)
 {
-	shape = shape_change.Chevron; // Chevron	
-	image_index = 3;
+	if (keyboard_check(ord("4")))
+	{
+		shape = shape_change.Chevron; // Chevron	
+		image_index = 3;
+	}
 }
-
-
-// Change Shape Rectangle
-if (keyboard_check(ord("5")))
-{
-	shape = shape_change.Rectangle; // Rectangle	
-	image_index = 4;
-}
-
-
-
 
