@@ -17,3 +17,6 @@ shp_chevron = 0;
 
 // Sprite setup
 image_speed = 0;
+
+// Player Control
+player_control = true;
