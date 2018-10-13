@@ -727,6 +727,14 @@
             }
         },
         {
+            "Key": "bff4af03-de43-422d-a3b6-2d86574ba900",
+            "Value": {
+                "id": "6f097752-b35e-401b-8dac-b903cb7a0c15",
+                "resourcePath": "rooms\\rm_level_0\\rm_level_0.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "c4e55312-45ed-4e8c-ac60-51c87fb4fa77",
             "Value": {
                 "id": "07ac851a-0a29-4333-9e73-809b12dbc281",
@@ -831,6 +839,14 @@
             }
         },
         {
+            "Key": "d7a128db-9291-4da7-b2a4-011825b95736",
+            "Value": {
+                "id": "8dc758f7-c098-4aab-ac72-6dc3742b81c5",
+                "resourcePath": "rooms\\rm_level_011\\rm_level_011.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "d95daed2-2fb5-4811-9692-ed86aca54a52",
             "Value": {
                 "id": "7cf2622d-c272-4fbd-838a-39616976a577",
@@ -932,14 +948,6 @@
                 "id": "686f084e-219a-40f1-b811-03327891006c",
                 "resourcePath": "objects\/obj_unlock_chevron\/obj_unlock_chevron.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "ee85b8c8-f0f6-4da7-aa77-c0e37c006f70",
-            "Value": {
-                "id": "c9cb3815-1fa0-496b-a061-fb7fcca37b41",
-                "resourcePath": "rooms\/rm_level_0\/rm_level_0.yy",
-                "resourceType": "GMRoom"
             }
         },
         {

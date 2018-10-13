@@ -1,7 +1,8 @@
+// Determine the RGBA values of the target color
+	spt_set_color();
+	
 // Only display if the target color matches the stage color
 if (global.gamecolor == target_color) {
-	// Determine the RGBA values of the target color
-	spt_set_color();
 	
 	// Make the wall solid and visible
 	solid = true;
