@@ -1,2 +1,1 @@
-global.gamecolor=target_color;
-instance_destroy();
+global.gamecolor = target_color;
