@@ -36,7 +36,7 @@ if (keyboard_check(ord("4")))
 if (keyboard_check(ord("5")))
 {
 	shape = shape_change.Rectangle; // Square	
-
+	image_index = 4;
 }
 
 
