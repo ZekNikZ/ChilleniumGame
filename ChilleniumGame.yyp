@@ -31,11 +31,27 @@
     },
     "resources": [
         {
+            "Key": "0036bc45-628b-4cae-8d94-5b578757ff07",
+            "Value": {
+                "id": "77b6838b-7fd6-43df-a67b-8e399ef170e8",
+                "resourcePath": "scripts\/spt_set_color\/spt_set_color.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0067dd49-5fbb-45ac-91b7-33b1742e0752",
             "Value": {
-                "id": "cf101ba2-499d-45f8-a1c9-163f9fb92d50",
+                "id": "9ea36815-7711-4c1c-a5db-ca074cb2b575",
                 "resourcePath": "objects\\obj_color\\obj_color.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "094dbb8b-30af-462e-8dbd-7674ff909971",
+            "Value": {
+                "id": "fb4ce99d-8780-4392-8837-977e61ac25d2",
+                "resourcePath": "rooms\/rm_StartMenu\/rm_StartMenu.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -60,6 +76,14 @@
                 "id": "6827cd54-978e-42b5-ad7f-ba2fe2ecf3f9",
                 "resourcePath": "views\/18a729e6-5ce8-4991-b7f8-3a88ab29b783.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "204b3df1-859f-4c75-bf09-a03bd1d38479",
+            "Value": {
+                "id": "600fa176-c654-4925-87d7-3610d38c42ab",
+                "resourcePath": "fonts\/fnt_menu\/fnt_menu.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -231,11 +255,27 @@
             }
         },
         {
+            "Key": "b749f10f-c914-4fc6-b498-a236b98e51ee",
+            "Value": {
+                "id": "e1b2fbf6-bad5-4ac9-a0a1-2b5a8e7a6631",
+                "resourcePath": "objects\/obj_menu\/obj_menu.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bd729542-c761-4577-87c0-2d4be90c65fa",
             "Value": {
                 "id": "4b36d4c0-a693-4b1e-823c-5a6fbd0f2145",
                 "resourcePath": "rooms\/test_rm_wall_matt\/test_rm_wall_matt.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "c6a245dd-a772-40d2-8d5a-0e5f67c0ebaa",
+            "Value": {
+                "id": "7aa43380-bc6e-41ac-a772-867461e6080f",
+                "resourcePath": "fonts\/fnt_title\/fnt_title.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -330,7 +370,8 @@
     "script_order": [
         "e836d9bb-ba05-4237-8415-79f034a0a0b3",
         "daf55b6b-9596-4050-9982-5ee4fde72e7d",
-        "30a74ebf-0cff-4b8a-885c-1299716544f9"
+        "30a74ebf-0cff-4b8a-885c-1299716544f9",
+        "0036bc45-628b-4cae-8d94-5b578757ff07"
     ],
     "tutorial": ""
 }

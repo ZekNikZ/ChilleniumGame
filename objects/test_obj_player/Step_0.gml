@@ -1,7 +1,7 @@
 /// @description player movement
 // Defining button presses
-key_left = keyboard_check(vk_left);
-key_right = keyboard_check(vk_right);
+key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
+key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 key_jump = keyboard_check_pressed(vk_space);
 
 
@@ -15,10 +15,12 @@ vsp += grav;
 // Jumping
 if (place_meeting(x, y + sign(vsp), obj_wall) && (key_jump)) {
 	vsp = -13;
+	in_air = true;
 }
 
-if (keyboard_check_released(vk_space)) {
-	vsp += (grav * 1.5);
+if (keyboard_check_released(vk_space)) && (in_air) {
+	vsp += (grav * 10);
+	in_air = false;
 }
 
 // Horizontal Collision Check and Movement
