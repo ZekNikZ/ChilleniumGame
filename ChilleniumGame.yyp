@@ -282,7 +282,7 @@
             "Key": "c049d796-e529-41ed-afd0-1b72a8bfb7a1",
             "Value": {
                 "id": "72a59e1a-b3d8-4501-b4db-32f715b5a0dd",
-                "resourcePath": "objects\\obj_chevron_unlock1\\obj_chevron_unlock1.yy",
+                "resourcePath": "objects\\obj_chevron_unlock\\obj_chevron_unlock.yy",
                 "resourceType": "GMObject"
             }
         },
