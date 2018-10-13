@@ -295,14 +295,6 @@
             }
         },
         {
-            "Key": "50f51b8c-a0af-4f86-93a6-f618cd640aa4",
-            "Value": {
-                "id": "fd65a162-021e-4319-8b07-ad6defd18671",
-                "resourcePath": "objects\\obj_unlock_room\\obj_unlock_room.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "54271022-ba24-43cc-9e7a-26864d0ce6a8",
             "Value": {
                 "id": "2f0648cb-b82c-421a-90b7-41974b1cd96c",
@@ -396,6 +388,14 @@
                 "id": "826ee8d0-c8e4-4938-81a1-99ffefc551f8",
                 "resourcePath": "scripts\/spt_screenshake\/spt_screenshake.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "735c8559-1b37-4125-a19c-e988d5adcf4e",
+            "Value": {
+                "id": "e48a05f6-618a-4b27-9074-b99d05a6fc3c",
+                "resourcePath": "objects\\obj_room_unlock_contoller\\obj_room_unlock_contoller.yy",
+                "resourceType": "GMObject"
             }
         },
         {

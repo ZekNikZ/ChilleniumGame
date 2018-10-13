@@ -36,7 +36,7 @@ if (menu_control)
 	// Select Options
 	if (keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space))
 	{
-		menu_x_target = gui_width+200;
+		//menu_x_target = gui_width+200;
 		menu_committed = menu_cursor;
 		menu_control = false;
 	}
@@ -44,7 +44,7 @@ if (menu_control)
 }
 
 // Transition activations.
-if (menu_x > gui_width+150) && (menu_committed != -1)
+if (menu_committed != -1) // && (menu_x > gui_width+150)
 {
 	switch (menu_committed)
 	{
@@ -52,10 +52,13 @@ if (menu_x > gui_width+150) && (menu_committed != -1)
 			spt_transition(TRANSITION_STATE.GOTO,rm_level_0); break;
 		case 4: 
 		{
-			//if()
+			if(obj_room_unlock_contoller.room_unlock >= 1)
 			{
-				spt_transition(TRANSITION_STATE.GOTO,rm_level_01); break;
+				menu_x_target = gui_width+200;
+				spt_transition(TRANSITION_STATE.GOTO,rm_level_01); 
 			}
+			else spt_screenshake(10,10); menu_committed = -1; menu_control = true;
+			break;
 		}
 		case 3: 
 		{
@@ -66,10 +69,12 @@ if (menu_x > gui_width+150) && (menu_committed != -1)
 		}
 		case 2: 
 		{
-			//if()
+			if(obj_room_unlock_contoller.room_unlock >=3)
 			{
-				spt_transition(TRANSITION_STATE.GOTO,rm_level_0); break;
+				spt_transition(TRANSITION_STATE.GOTO,rm_level_03); 
 			}
+			else spt_screenshake(1,1); menu_committed = -1; menu_control = true;
+			break;
 		}
 		case 1: 
 		{	
@@ -78,6 +83,11 @@ if (menu_x > gui_width+150) && (menu_committed != -1)
 				spt_transition(TRANSITION_STATE.GOTO,rm_level_0); break;
 			}
 		}
-		case 0: default: spt_transition(TRANSITION_STATE.GOTO,rm_main_menu); break;
+		case 0: default: 
+		{
+			//menu_x_target = gui_width+200;
+			menu_control = false;
+			spt_transition(TRANSITION_STATE.GOTO,rm_main_menu); break;
+		}
 	}
 }
