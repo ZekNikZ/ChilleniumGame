@@ -8,7 +8,7 @@ shader_set_uniform_f(uFADEPOS, 0);
 
 for(var i = -1; i <= 1; i++) {
 	for(var j = -1; j <= 1; j++) {
-		if (!place_meeting(x + j * sprite_width, y + i * sprite_height, obj_wall)) {
+		if (!place_meeting(x + j * sprite_width, y + i * sprite_height, obj_move_wall)) {
 			draw_sprite_ext(spr_walls, (i + 1) * 3 + (j + 1), x, y, 1, 1, 0, c_white, 1);
 		}
 	}
