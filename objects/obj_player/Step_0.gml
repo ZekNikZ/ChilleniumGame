@@ -65,7 +65,7 @@ if (shape == SHAPE.CHEVRON) { // Chevron
 }
 
 // Horizontal Collision Check and Movement
-if (!place_free(x + h_move, y)) {
+/*if (!place_free(x + h_move, y)) {
 	while (place_free(x + sign(h_move), y)) {
 		x += sign(h_move);
 	}
@@ -88,7 +88,7 @@ if (!place_free(x, y + vsp)) {
 	image_yscale = 1;
 }
 
-y += vsp;
+y += vsp;*/
 
 
 // ###################

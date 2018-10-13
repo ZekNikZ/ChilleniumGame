@@ -1,3 +1,5 @@
+// Physics setup
+
 // Movement setup
 hsp = 10;
 vsp = 0;
