@@ -34,7 +34,7 @@ draw_set_valign(fa_center);
 
 xx = (1024/2);
 yy = ((768/2)-100);
-txt = "Shape"
+txt = "Take Shape";
 
 draw_set_color(c_black);
 draw_text(xx-offset,yy,txt);

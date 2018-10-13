@@ -13,11 +13,12 @@ menu_itemheight = font_get_size(fnt_menu);
 menu_committed = -1;
 menu_control = true;
 
-lvl[5] = "Level 1"
-lvl[4] = "Level 2"
-lvl[3] = "Level 3"
-lvl[2] = "Level 4"
-lvl[1] = "Level 5"
+lvl[6] = "Level 1"
+lvl[5] = "Level 2"
+lvl[4] = "Level 3"
+lvl[3] = "Level 4"
+lvl[2] = "Level 5"
+lvl[1] = "Level 6"
 lvl[0] = "Return to Menu";
 
 menu_items = array_length_1d(lvl);

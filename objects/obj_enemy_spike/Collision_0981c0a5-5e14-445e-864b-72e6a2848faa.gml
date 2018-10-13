@@ -1,2 +1,2 @@
 /// @kill player
-if(solid==true) room_restart();
+if(image_xscale==1) room_restart();
