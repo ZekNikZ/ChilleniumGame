@@ -34,7 +34,7 @@ if (mode != transition.off)
 			}
 			case transition.restart: 
 			{
-				game_restart();
+				room_restart();
 				break;
 			}
 		}
