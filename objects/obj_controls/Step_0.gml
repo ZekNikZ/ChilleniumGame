@@ -48,9 +48,6 @@ if (menu_x > gui_width+150) && (menu_committed != -1)
 {
 	switch (menu_committed)
 	{
-		case 3: default: spt_transition(TRANSITION_STATE.NEXT); break;
-		case 2: spt_transition(TRANSITION_STATE.GOTO,rm_menu_level_selection)
-		case 1: spt_transition(TRANSITION_STATE.GOTO,rm_menu_controls); break;
-		case 0: game_end(); break;
+		case 0: default: spt_transition(TRANSITION_STATE.GOTO,rm_main_menu); break;
 	}
 }
