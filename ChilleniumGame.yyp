@@ -80,17 +80,6 @@
             "Key": "18a729e6-5ce8-4991-b7f8-3a88ab29b783",
             "Value": {
                 "id": "6827cd54-978e-42b5-ad7f-ba2fe2ecf3f9",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
                 "resourcePath": "views\/18a729e6-5ce8-4991-b7f8-3a88ab29b783.yy",
                 "resourceType": "GMFolder"
             }
@@ -126,17 +115,6 @@
             "Key": "39b7030f-614a-4787-b407-b2d10efb7c2c",
             "Value": {
                 "id": "3ad4eba1-096c-44da-8ce0-64ad9b2c571f",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
                 "resourcePath": "views\/39b7030f-614a-4787-b407-b2d10efb7c2c.yy",
                 "resourceType": "GMFolder"
             }
