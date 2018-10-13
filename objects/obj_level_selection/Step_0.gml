@@ -53,6 +53,6 @@ if (menu_x > gui_width+150) && (menu_committed != -1)
 		case 3: spt_transition(transition.goto,room0); break;
 		case 2: spt_transition(transition.goto,room0); break;
 		case 1: spt_transition(transition.goto,room0); break;
-		case 0: default: spt_transition(transition.goto,room0); break;
+		case 0: default: spt_transition(transition.goto,rm_StartMenu); break;
 	}
 }

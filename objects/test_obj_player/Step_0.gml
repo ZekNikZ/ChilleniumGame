@@ -65,7 +65,7 @@ if (keyboard_check(ord("1")))
 }
 
 
-// Change Shape Square
+// Change Shape Triangle
 if (keyboard_check(ord("2")))
 {
 	shape = shape_change.Triangle; // Triangle	
@@ -73,7 +73,7 @@ if (keyboard_check(ord("2")))
 }
 
 
-// Change Shape Square
+// Change Shape Circle
 if (keyboard_check(ord("3")))
 {
 	shape = shape_change.Circle; // Circle	
@@ -81,7 +81,7 @@ if (keyboard_check(ord("3")))
 }
 
 
-// Change Shape Square
+// Change Shape Chevron
 if (keyboard_check(ord("4")))
 {
 	shape = shape_change.Chevron; // Chevron	
@@ -89,7 +89,7 @@ if (keyboard_check(ord("4")))
 }
 
 
-// Change Shape Square
+// Change Shape Rectangle
 if (keyboard_check(ord("5")))
 {
 	shape = shape_change.Rectangle; // Rectangle	
