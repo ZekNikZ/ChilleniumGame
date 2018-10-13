@@ -15,10 +15,12 @@ vsp += grav;
 // Jumping
 if (place_meeting(x, y + sign(vsp), obj_wall) && (key_jump)) {
 	vsp = -13;
+	in_air = true;
 }
 
-if (keyboard_check_released(vk_space)) {
-	vsp += (grav * 1.5);
+if (keyboard_check_released(vk_space)) && (in_air) {
+	vsp += (grav * 10);
+	in_air = false;
 }
 
 // Horizontal Collision Check and Movement
