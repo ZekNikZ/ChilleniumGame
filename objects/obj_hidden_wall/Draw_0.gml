@@ -1,13 +1,5 @@
 // Only display if the target color matches the stage color
 if (global.gamecolor == target_color) {
-	// Determine the RGBA values of the target color
-	spt_set_color();
-	
-	// Make the wall solid and visible
-	solid = true;
-	image_xscale = 1;
-	image_yscale = 1;
-	
 	// Set up the shader for the draw
 	shader_set(sdr_colorizer);
 	uCOLOR = shader_get_uniform(sdr_colorizer, "f_Color");
