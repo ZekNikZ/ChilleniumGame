@@ -10,3 +10,5 @@ enum shape_change
 }
 
 shape = shape_change.Square;
+
+image_speed = 0;

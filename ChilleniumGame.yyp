@@ -99,17 +99,6 @@
             "Key": "30c28f51-22d2-4e44-b2dc-b4986e4a8c4b",
             "Value": {
                 "id": "a41c2fa2-713a-453b-97b8-5c66a3511b24",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
                 "resourcePath": "objects\/obj_wall\/obj_wall.yy",
                 "resourceType": "GMObject"
             }
@@ -156,17 +145,6 @@
             "Key": "43377143-6ecb-4964-a16a-22d5ac747392",
             "Value": {
                 "id": "6303f324-bfc8-4233-8e1d-14b50b901927",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
                 "resourcePath": "sprites\/spr_vis_wall\/spr_vis_wall.yy",
                 "resourceType": "GMSprite"
             }
@@ -207,6 +185,14 @@
                 ],
                 "resourcePath": "views\/594f5662-3bbd-4a17-b7f4-c1bbb52616b9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "64d7d38f-8941-4977-b929-190df16c1325",
+            "Value": {
+                "id": "b460a937-a82a-4e8a-b69b-7b8d1344468f",
+                "resourcePath": "objects\\obj_transition\\obj_transition.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -552,6 +538,14 @@
             }
         },
         {
+            "Key": "e836d9bb-ba05-4237-8415-79f034a0a0b3",
+            "Value": {
+                "id": "74e56986-f370-45a0-9b95-22649f23eb75",
+                "resourcePath": "scripts\\spt_transition\\spt_transition.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e926a3c2-5e82-490b-b409-2135b47e4f36",
             "Value": {
                 "id": "9086f40a-c639-4c9e-a4ee-4c3facd61603",
@@ -629,7 +623,7 @@
         }
     ],
     "script_order": [
-        
+        "e836d9bb-ba05-4237-8415-79f034a0a0b3"
     ],
     "tutorial": ""
 }
