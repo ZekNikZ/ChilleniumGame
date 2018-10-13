@@ -2,7 +2,7 @@
 // Draw White Panning Bars
 if (mode != transition.off)
 {
-	switch (gamecolor)
+	switch (global.gamecolor)
 	{
 		case activecolor.white: default:
 		{
