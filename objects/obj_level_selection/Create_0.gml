@@ -18,7 +18,7 @@ menu[4] = "Level 2"
 menu[3] = "Level 3"
 menu[2] = "Level 4"
 menu[1] = "Level 5"
-menu[0] = "Back";
+menu[0] = "Return to Menu";
 
 menu_items = array_length_1d(menu);
 menu_cursor = 2;

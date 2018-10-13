@@ -49,7 +49,7 @@ if (menu_x > gui_width+150) && (menu_committed != -1)
 	switch (menu_committed)
 	{
 		case 2: default: spt_transition(transition.next); break;
-		case 1: spt_transition(transition.goto,room0); break;
+		case 1: spt_transition(transition.goto,rm_level_selection); break;
 		case 0: game_end(); break;
 	}
 }
