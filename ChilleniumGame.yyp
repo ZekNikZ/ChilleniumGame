@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "50f51b8c-a0af-4f86-93a6-f618cd640aa4",
+            "Value": {
+                "id": "fd65a162-021e-4319-8b07-ad6defd18671",
+                "resourcePath": "objects\\obj_unlock_room\\obj_unlock_room.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "54271022-ba24-43cc-9e7a-26864d0ce6a8",
             "Value": {
                 "id": "2f0648cb-b82c-421a-90b7-41974b1cd96c",
