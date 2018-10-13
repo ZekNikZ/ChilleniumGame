@@ -4,23 +4,6 @@ if (touching) with(obj_player) {
 	if (abs(speed) > 0) speed -= sign(speed);
 	
 	touching = instance_position(x, y + 44, obj_move_wall) == other.id;
-	/*
-	touching = instance_place(x, y + 1, obj_move_wall) == other.id;
-	if (place_meeting(x, y, obj_move_wall)) {
-		switch(other.move_dir) {
-			case MOVE_DIR.VERTICAL:
-				direction = 180 + 90 * other.dir;
-				speed = 25;
-				obj_player.y += other.dir * other.spd;
-				break;
-			case MOVE_DIR.HORIZONTAL:
-				direction = 90 - 90 * other.dir;
-				speed = 25;
-				obj_player.x += other.dir * other.spd;
-				break;
-		}
-	}
-	*/
 }
 
 // Move the platform (and possibly the player)

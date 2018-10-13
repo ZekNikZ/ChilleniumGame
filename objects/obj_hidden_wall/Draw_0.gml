@@ -20,9 +20,4 @@ if (global.gamecolor == target_color) {
 	}
 
 	shader_reset();
-} else {
-	// Make the wall passthrough and invisible
-	solid = false;
-	image_xscale = 0;
-	image_yscale = 0;
 }
