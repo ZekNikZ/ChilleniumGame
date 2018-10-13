@@ -96,6 +96,25 @@
             }
         },
         {
+            "Key": "30a74ebf-0cff-4b8a-885c-1299716544f9",
+            "Value": {
+                "id": "0a8214ff-e8ff-4496-b5c9-75eb832be229",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/spt_change_color\/spt_change_color.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "30c28f51-22d2-4e44-b2dc-b4986e4a8c4b",
             "Value": {
                 "id": "a41c2fa2-713a-453b-97b8-5c66a3511b24",
@@ -262,7 +281,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "shaders\/sdr_tile_colorizer\/sdr_tile_colorizer.yy",
+                "resourcePath": "shaders\/sdr_colorizer\/sdr_colorizer.yy",
                 "resourceType": "GMShader"
             }
         },
@@ -552,6 +571,25 @@
             }
         },
         {
+            "Key": "daf55b6b-9596-4050-9982-5ee4fde72e7d",
+            "Value": {
+                "id": "b1f78ea0-7b80-4aee-b53c-0be05301761e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/spt_setup\/spt_setup.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e50c9dfc-e6e3-45d2-a483-f318f22022ee",
             "Value": {
                 "id": "c6bbc93d-fbdb-4f18-92fb-a2267afec049",
@@ -686,7 +724,9 @@
         }
     ],
     "script_order": [
-        "e836d9bb-ba05-4237-8415-79f034a0a0b3"
+        "e836d9bb-ba05-4237-8415-79f034a0a0b3",
+        "daf55b6b-9596-4050-9982-5ee4fde72e7d",
+        "30a74ebf-0cff-4b8a-885c-1299716544f9"
     ],
     "tutorial": ""
 }

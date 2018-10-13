@@ -25,4 +25,6 @@ enum activecolor
 	green
 }
 
+spt_setup();
+
 global.gamecolor = activecolor.white;
