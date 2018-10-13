@@ -5,26 +5,6 @@
     "name": "obj_unlock_chevron",
     "eventList": [
         {
-            "id": "c2be8fec-3cab-4848-acf1-5326f0aef636",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "eb213eb8-a16a-4189-8ef8-0aa0e8568f7c"
-        },
-        {
-            "id": "7c7ea14c-a6ed-496e-8eb7-7de1d0435b3e",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "eb213eb8-a16a-4189-8ef8-0aa0e8568f7c"
-        },
-        {
             "id": "0cd838ea-a243-4b99-a711-104186cfc761",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -37,7 +17,7 @@
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "124dab39-ef41-483a-9ec6-9ff30c8e6aa4",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

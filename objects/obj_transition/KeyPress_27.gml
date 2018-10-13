@@ -1,2 +1,2 @@
 /// @description Restart Game
-spt_transition(transition.goto,rm_StartMenu);
+spt_transition(TRANSITION_STATE.GOTO, rm_main_menu);

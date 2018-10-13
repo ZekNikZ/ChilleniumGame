@@ -1,1 +1,1 @@
-target_color = activecolor.red;
+target_color = COLOR.RED;

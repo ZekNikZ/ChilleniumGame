@@ -1,1 +1,2 @@
-target_color = activecolor.red;
+// TODO: move to creation code
+target_color = COLOR.RED;

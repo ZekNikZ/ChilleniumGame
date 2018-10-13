@@ -5,26 +5,6 @@
     "name": "obj_unlock_triangle",
     "eventList": [
         {
-            "id": "ab435660-9835-435a-a22a-e9508a78d305",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "9a7a4270-151c-44a9-a23e-5d4bb34d0469"
-        },
-        {
-            "id": "d1c8bcc1-61ec-4e2f-9cb3-5a6436d39b74",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "9a7a4270-151c-44a9-a23e-5d4bb34d0469"
-        },
-        {
             "id": "a4aa25ed-6bc8-483a-b207-14eb4881e876",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -37,7 +17,7 @@
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "124dab39-ef41-483a-9ec6-9ff30c8e6aa4",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

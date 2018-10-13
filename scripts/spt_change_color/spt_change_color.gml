@@ -1,29 +1,29 @@
 switch (global.gamecolor) {
-	case activecolor.white:
+	case COLOR.WHITE:
 		global.cc_r = 1;
 		global.cc_g = 1;
 		global.cc_b = 1;
 		global.cc_a = 1;
 		break;
-	case activecolor.red:
+	case COLOR.RED:
 		global.cc_r = 1;
 		global.cc_g = 0;
 		global.cc_b = 0;
 		global.cc_a = 1;
 		break;
-	case activecolor.green:
+	case COLOR.GREEN:
 		global.cc_r = 0;
 		global.cc_g = 1;
 		global.cc_b = 0;
 		global.cc_a = 1;
 		break;
-	case activecolor.blue:
+	case COLOR.BLUE:
 		global.cc_r = 0;
 		global.cc_g = 0;
 		global.cc_b = 1;
 		global.cc_a = 1;
 		break;
-	case activecolor.yellow:
+	case COLOR.YELLOW:
 		global.cc_r = 1;
 		global.cc_g = 1;
 		global.cc_b = 0;

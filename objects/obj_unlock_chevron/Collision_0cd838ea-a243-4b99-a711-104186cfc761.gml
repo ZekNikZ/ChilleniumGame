@@ -1,8 +1,8 @@
-/// @description Unlock change
-with (test_obj_player)
-{
+// Allow player to change to circle
+with (obj_player) {
 	shp_chevron = 1;
-	shape = shape_change.Chevron;
+	shape = SHAPE.CHEVRON;
 	image_index = 3;
 }
+
 instance_destroy();

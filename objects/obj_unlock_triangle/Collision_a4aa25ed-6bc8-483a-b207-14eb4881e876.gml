@@ -1,8 +1,8 @@
-/// @description Unlock change
-with (test_obj_player)
-{
+// Allow player to change to triangle
+with (obj_player) {
 	shp_triangle = 1;
-	shape = shape_change.Triangle;
+	shape = SHAPE.CIRCLE;
 	image_index = 1;
 }
+
 instance_destroy();

@@ -1,28 +1,27 @@
-/// @description player movement
-// Defining button presses
+// ############
+// # Movement #
+// ############
+
+// Check button presses
 key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 key_jump = keyboard_check_pressed(vk_space);
 key_fly = keyboard_check(vk_space);
 
 
-// Horizontal Movement
+// Horizontal movement
 var h_move = key_right - key_left;
 h_move *= hsp;
 
 
-// Chevron Flight
-if  (shape == shape_change.Chevron){
+// Chevron flight controls
+if (shape == SHAPE.CHEVRON) { // Chevron
 	if (key_fly)
 	vsp -= 0.2;
 	else
 	vsp += 0.2;
-}
-
-
-else {
-
-	// Natural Falling
+} else { // Anything else
+	// Apply acceleration due to gravity
 	vsp += grav;
 
 	// Jumping
@@ -35,15 +34,15 @@ else {
 		}
 	}
 
-	// Releasing Jump and Triangle Slam
+	// Releasing jump and triangle slam
 	if (keyboard_check_released(vk_space)) && (in_air) {
-		if(shape == shape_change.Triangle) {
+		if(shape == SHAPE.TRIANGLE) {
 			vsp = 0;
 			vsp += (grav * 30);
 			in_air = false;
 			image_yscale = -1;
 		}
-		else if (shape == shape_change.Circle) {
+		else if (shape == SHAPE.CIRCLE) {
 			vsp = 0;
 			vsp += (grav * 10);
 			in_air = false;
@@ -56,8 +55,8 @@ else {
 		}
 	}
 
-	//Circle Double Jump
-	if (shape == shape_change.Circle) && (can_double) && (key_jump) && (!in_air) {
+	// Circle double jump
+	if (shape == SHAPE.CIRCLE) && (can_double) && (key_jump) && (!in_air) {
 		vsp = 0;
 		vsp -= 13;
 		can_double = false;
@@ -86,35 +85,31 @@ if (!place_free(x, y + vsp)) {
 y += vsp;
 
 
+// ###################
+// # Changing Shapes #
+// ###################
 
-
-
-// Changing Shapes
-
-// Change Shape Square
-if (keyboard_check(ord("1")))
-{
-	shape = shape_change.Square; // Square	
+// Square
+if (keyboard_check(ord("1"))) {
+	shape = SHAPE.SQUARE;
 	image_index = 0;
 }
 
 
-// Change Shape Triangle
+// Triangle
 //if (shp_triangle == 1)
 {
-	if (keyboard_check(ord("2")))
-	{
-		shape = shape_change.Triangle; // Triangle	
+	if (keyboard_check(ord("2"))) {
+		shape = SHAPE.TRIANGLE;
 		image_index = 1;
 	}
 }
 
-// Change Shape Circle
+// Circle
 //if (shp_circle == 1)
 {
-	if (keyboard_check(ord("3")))
-	{
-		shape = shape_change.Circle; // Circle	
+	if (keyboard_check(ord("3"))) {
+		shape = SHAPE.CIRCLE;
 		image_index = 2;
 	}
 }
@@ -122,9 +117,8 @@ if (keyboard_check(ord("1")))
 // Change Shape Chevron
 //if (shp_chevron == 1)
 {
-	if (keyboard_check(ord("4")))
-	{
-		shape = shape_change.Chevron; // Chevron	
+	if (keyboard_check(ord("4"))) {
+		shape = SHAPE.CHEVRON;
 		image_index = 3;
 	}
 }

@@ -1,38 +1,38 @@
 /// @description Transition Processing
 // Progress the Transition
 
-if (mode != transition.off)
+if (mode != TRANSITION_STATE.OFF)
 {
-	if (mode == transition.intro)
+	if (mode == TRANSITION_STATE.INTRO)
 	{
-		percent = max(0,percent-max((percent/10),0.005));
+		percent = max(0, percent - max(percent / 10, 0.005));
 	}
 	else
 	{
-		percent = min(1.2,percent+max(((1-percent)/10),0.005));
+		percent = min(1.2, percent + max((1 - percent) / 10, 0.005));
 	}
 	if (percent == 1.2) || (percent == 0)
 	{
 		switch(mode)
 		{
-			case transition.intro: 
+			case TRANSITION_STATE.INTRO: 
 			{
-				mode = transition.off;
+				mode = TRANSITION_STATE.OFF;
 				break;
 			}
-			case transition.next: 
+			case TRANSITION_STATE.NEXT: 
 			{
-				mode = transition.intro;
+				mode = TRANSITION_STATE.INTRO;
 				room_goto_next();
 				break;
 			}
-			case transition.goto: 
+			case TRANSITION_STATE.GOTO: 
 			{
-				mode = transition.intro;
+				mode = TRANSITION_STATE.INTRO;
 				room_goto(target);
 				break;
 			}
-			case transition.restart: 
+			case TRANSITION_STATE.RESTART: 
 			{
 				room_restart();
 				break;

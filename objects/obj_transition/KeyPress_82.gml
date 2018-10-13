@@ -1,4 +1,4 @@
 /// @description Restart Level
 //Restart Level.
-spt_transition(transition.restart);
+spt_transition(TRANSITION_STATE.RESTART);
 
