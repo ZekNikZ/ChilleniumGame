@@ -13,8 +13,9 @@ menu_itemheight = font_get_size(fnt_menu);
 menu_committed = -1;
 menu_control = true;
 
-menu[2] = "New Game";
-menu[1] = "Level Select";
+menu[3] = "New Game";
+menu[2] = "Level Select";
+menu[1] = "Controls";
 menu[0] = "Quit";
 
 menu_items = array_length_1d(menu);
