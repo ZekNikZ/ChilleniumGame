@@ -95,6 +95,25 @@
             }
         },
         {
+            "Key": "26aca01e-1573-4ef6-8afb-bb8528ee1971",
+            "Value": {
+                "id": "661f9c8a-8f22-403e-94d2-4be6fc4c2d23",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_hidden_wall\/obj_hidden_wall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "30a74ebf-0cff-4b8a-885c-1299716544f9",
             "Value": {
                 "id": "0a8214ff-e8ff-4496-b5c9-75eb832be229",
@@ -460,6 +479,25 @@
                 "id": "e85be495-2648-478d-b50a-bf2ea0c16f17",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f5941082-cf49-4685-9598-fa2a404c1356",
+            "Value": {
+                "id": "a3c44af7-f6cc-49fe-abc0-cf0f5e7299b1",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_filter_wall\/obj_filter_wall.yy",
+                "resourceType": "GMObject"
             }
         },
         {
