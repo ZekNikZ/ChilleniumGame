@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "c049d796-e529-41ed-afd0-1b72a8bfb7a1",
+            "Value": {
+                "id": "72a59e1a-b3d8-4501-b4db-32f715b5a0dd",
+                "resourcePath": "objects\\obj_chevron_unlock1\\obj_chevron_unlock1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c6a245dd-a772-40d2-8d5a-0e5f67c0ebaa",
             "Value": {
                 "id": "7aa43380-bc6e-41ac-a772-867461e6080f",
@@ -292,6 +300,14 @@
                 "id": "7e90ef01-fc2f-44b6-8203-fcb209eebd17",
                 "resourcePath": "views\/c7d80e83-fda1-41f8-aa84-a2822187e7f5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c85a4ab5-9baf-4f2e-863d-3df9b2a6459e",
+            "Value": {
+                "id": "212122d7-dc92-4352-a897-2697dc1b9801",
+                "resourcePath": "objects\\obj_triangle_unlock\\obj_triangle_unlock.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -348,14 +364,6 @@
                 "id": "74e56986-f370-45a0-9b95-22649f23eb75",
                 "resourcePath": "scripts\/spt_transition\/spt_transition.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "e926a3c2-5e82-490b-b409-2135b47e4f36",
-            "Value": {
-                "id": "9086f40a-c639-4c9e-a4ee-4c3facd61603",
-                "resourcePath": "rooms\/room0\/room0.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
