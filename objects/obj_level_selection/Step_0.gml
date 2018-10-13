@@ -48,9 +48,9 @@ if (menu_committed != -1) // && (menu_x > gui_width+150)
 {
 	switch (menu_committed)
 	{
-		case 5: 
+		case 6: 
 			spt_transition(TRANSITION_STATE.GOTO,rm_level_0); break;
-		case 4: 
+		case 5: 
 		{
 			if(obj_room_unlock_contoller.room_unlock >= 1)
 			{
@@ -60,7 +60,7 @@ if (menu_committed != -1) // && (menu_x > gui_width+150)
 			else spt_screenshake(10,10); menu_committed = -1; menu_control = true;
 			break;
 		}
-		case 3: 
+		case 4: 
 		{
 			if(obj_room_unlock_contoller.room_unlock >= 2)
 			{
@@ -70,7 +70,7 @@ if (menu_committed != -1) // && (menu_x > gui_width+150)
 			else spt_screenshake(10,10); menu_committed = -1; menu_control = true;
 			break;
 		}
-		case 2: 
+		case 3: 
 		{
 			if(obj_room_unlock_contoller.room_unlock >=3)
 			{
@@ -79,12 +79,22 @@ if (menu_committed != -1) // && (menu_x > gui_width+150)
 			else spt_screenshake(1,1); menu_committed = -1; menu_control = true;
 			break;
 		}
-		case 1: 
+		case 2: 
 		{	
-			if(obj_room_unlock_contoller.room_unlock >= 1)
+			if(obj_room_unlock_contoller.room_unlock >= 4)
 			{
 				menu_x_target = gui_width+200;
 				//spt_transition(TRANSITION_STATE.GOTO,rm_level_04); 
+			}
+			else spt_screenshake(10,10); menu_committed = -1; menu_control = true;
+			break;
+		}
+		case 1: 
+		{	
+			if(obj_room_unlock_contoller.room_unlock >= 5)
+			{
+				menu_x_target = gui_width+200;
+				//spt_transition(TRANSITION_STATE.GOTO,rm_level_05); 
 			}
 			else spt_screenshake(10,10); menu_committed = -1; menu_control = true;
 			break;
