@@ -1,4 +1,4 @@
-if(solid==true)
+if(image_xscale==1)
 {
 	x+=hsp;
 
