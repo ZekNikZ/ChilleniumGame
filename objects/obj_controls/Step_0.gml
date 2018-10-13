@@ -48,6 +48,6 @@ if (menu_x > gui_width+150) && (menu_committed != -1)
 {
 	switch (menu_committed)
 	{
-		default: case 0: game_end(); break;
+		default: case 0: spt_transition(TRANSITION_STATE.GOTO,rm_main_menu); break;
 	}
 }
