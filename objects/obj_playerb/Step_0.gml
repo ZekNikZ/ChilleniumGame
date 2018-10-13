@@ -28,7 +28,7 @@ if (keyboard_check(ord("3")))
 if (keyboard_check(ord("4")))
 {
 	shape = shape_change.Chevron; // Square	
-
+	image_index = 3;
 }
 
 
