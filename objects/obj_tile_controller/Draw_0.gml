@@ -2,7 +2,7 @@ spt_change_color();
 
 cnt++;
 if (cnt > 120) cnt = 0;
-draw_text(20, 20, cnt);
+//draw_text(20, 20, cnt);
 
 surface_set_target(surface_canvas_1);
   shader_set(sdr_colorizer);
