@@ -533,6 +533,25 @@
             }
         },
         {
+            "Key": "b16a95d7-671e-450f-ae07-ebf974afeef3",
+            "Value": {
+                "id": "622e9600-f951-4a1c-9a7d-52da612436b4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/b16a95d7-671e-450f-ae07-ebf974afeef3.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b5936a46-315d-470e-9730-7d03c83bb1e4",
             "Value": {
                 "id": "f0ba072a-68f2-42d3-ab12-7a406a54a7c0",
@@ -757,6 +776,25 @@
                     "default"
                 ],
                 "resourcePath": "rooms\/room0\/room0.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "ee85b8c8-f0f6-4da7-aa77-c0e37c006f70",
+            "Value": {
+                "id": "c9cb3815-1fa0-496b-a061-fb7fcca37b41",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/rm_level_0\/rm_level_0.yy",
                 "resourceType": "GMRoom"
             }
         },
