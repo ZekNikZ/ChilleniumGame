@@ -1,4 +1,4 @@
-if(solid==true) {
+if(image_xscale==1) {
 	if (!place_free(x + hsp, y)) {
 		while (place_free(x + sign(hsp), y)) {
 			x += sign(hsp);
