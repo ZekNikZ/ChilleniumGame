@@ -1,0 +1,1 @@
+spt_set_color();
