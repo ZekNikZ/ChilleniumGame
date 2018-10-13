@@ -40,6 +40,7 @@ if (shape == SHAPE.CHEVRON) { // Chevron
 			vsp = 0;
 			vsp += (grav * 30);
 			in_air = false;
+			slamming = true;
 			image_yscale = -1;
 		}
 		else if (shape == SHAPE.CIRCLE) {
@@ -77,6 +78,11 @@ x += h_move;
 if (!place_free(x, y + vsp)) {
 	while (place_free(x, y + sign(vsp))) {
 		y += sign(vsp);
+	}
+	// Triangle slam screen shake
+	if(slamming) {
+		spt_screenshake(3, 30);
+		slamming = false;
 	}
 	vsp = 0;
 	image_yscale = 1;

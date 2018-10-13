@@ -5,6 +5,7 @@ grav = 0.5;
 
 in_air = false;
 can_double = false
+slamming = false;
 
 // Shape setup
 shape = SHAPE.SQUARE;

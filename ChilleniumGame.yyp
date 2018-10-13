@@ -77,6 +77,25 @@
             }
         },
         {
+            "Key": "07e75931-a5b8-403b-b798-861b035f95c5",
+            "Value": {
+                "id": "b4a77f69-f6d2-42e9-824a-0f272b3b0507",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_camera\/obj_camera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "094dbb8b-30af-462e-8dbd-7674ff909971",
             "Value": {
                 "id": "fb4ce99d-8780-4392-8837-977e61ac25d2",
@@ -568,6 +587,25 @@
                 ],
                 "resourcePath": "views\/6a37b5b7-4635-4a25-8905-0cd86e8cd190.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "72066a06-c766-4649-a90f-ed3d5bf190c0",
+            "Value": {
+                "id": "826ee8d0-c8e4-4938-81a1-99ffefc551f8",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/spt_screenshake\/spt_screenshake.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1449,6 +1487,7 @@
         "30a74ebf-0cff-4b8a-885c-1299716544f9",
         "0036bc45-628b-4cae-8d94-5b578757ff07",
         "e836d9bb-ba05-4237-8415-79f034a0a0b3",
+        "72066a06-c766-4649-a90f-ed3d5bf190c0",
         "daf55b6b-9596-4050-9982-5ee4fde72e7d",
         "4effb021-4bc9-48f8-9aea-c81d9274a339"
     ],
