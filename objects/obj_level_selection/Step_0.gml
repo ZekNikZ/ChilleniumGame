@@ -52,28 +52,28 @@ if (menu_x > gui_width+150) && (menu_committed != -1)
 			spt_transition(TRANSITION_STATE.GOTO,rm_level_0); break;
 		case 4: 
 		{
-			if()
+			//if()
 			{
 				spt_transition(TRANSITION_STATE.GOTO,rm_level_01); break;
 			}
 		}
 		case 3: 
 		{
-			if ()
+			//if ()
 			{
 				spt_transition(TRANSITION_STATE.GOTO,rm_level_0); break;
 			}
 		}
 		case 2: 
 		{
-			if()
+			//if()
 			{
 				spt_transition(TRANSITION_STATE.GOTO,rm_level_0); break;
 			}
 		}
 		case 1: 
 		{	
-			if()
+			//if()
 			{
 				spt_transition(TRANSITION_STATE.GOTO,rm_level_0); break;
 			}
