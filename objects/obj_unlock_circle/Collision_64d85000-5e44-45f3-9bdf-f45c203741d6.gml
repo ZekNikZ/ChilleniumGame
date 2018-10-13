@@ -2,7 +2,7 @@
 with (obj_player) {
 	shp_circle = 1;
 	shape = SHAPE.CIRCLE;
-	image_index = 2;
+	sprite_index = spr_player_circle;
 }
 
 
