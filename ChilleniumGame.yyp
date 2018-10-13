@@ -567,6 +567,14 @@
             }
         },
         {
+            "Key": "ca675731-1cb7-4458-b0a2-2ff76b4eee02",
+            "Value": {
+                "id": "5f890686-a33c-45fe-842e-9e36ddb476dc",
+                "resourcePath": "sprites\\spr_player_square_jump\\spr_player_square_jump.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "3c3e8ba1-6792-48ba-8196-1ac823f630ae",
