@@ -3,7 +3,7 @@ vsp = 0;
 grav = 0.5;
 
 in_air = false;
-can_double = false;
+can_double = false
 
 enum shape_change
 {
