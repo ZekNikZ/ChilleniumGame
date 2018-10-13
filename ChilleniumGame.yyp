@@ -631,6 +631,14 @@
             }
         },
         {
+            "Key": "b00a802c-a437-4463-a484-d46813c08528",
+            "Value": {
+                "id": "33138bec-feb1-4a0f-bac1-4902677dcec0",
+                "resourcePath": "sprites\\spr_player_square_crouch\\spr_player_square_crouch.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b16a95d7-671e-450f-ae07-ebf974afeef3",
             "Value": {
                 "id": "622e9600-f951-4a1c-9a7d-52da612436b4",
