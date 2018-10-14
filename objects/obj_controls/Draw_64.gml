@@ -33,7 +33,7 @@ draw_set_halign(fa_center);
 draw_set_valign(fa_center);
 
 xx = (1024/2);
-yy = ((768/2)-350);
+yy = ((768/2)-250);
 txt = "WASD - Movement"
 
 draw_set_color(c_black);
@@ -45,7 +45,7 @@ draw_set_color(c_white);
 draw_text(xx,yy,txt);
 
 xx = (1024/2);
-yy = ((768/2)-300);
+yy = ((768/2)-200);
 txt = "Space - Jump"
 
 draw_set_color(c_black);
@@ -56,7 +56,19 @@ draw_text(xx,yy+offset,txt);
 draw_set_color(c_white);
 draw_text(xx,yy,txt);
 
+// "Shape Change"
+xx = (1024/2);
+yy = ((768/2)-100);
+txt = "Shift - Change Shapes"
 
+draw_set_color(c_black);
+draw_text(xx-offset,yy,txt);
+draw_text(xx+offset,yy,txt);	
+draw_text(xx,yy-offset,txt);
+draw_text(xx,yy+offset,txt);
+draw_set_color(c_white);
+draw_text(xx,yy,txt);
+/*
 // "Shape Change:" Header
 xx = (1024/2);
 yy = ((768/2)-200);
