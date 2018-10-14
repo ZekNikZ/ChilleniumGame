@@ -5,7 +5,7 @@ uFADECOLOR = shader_get_uniform(sdr_colorizer, "f_FadeColor");
 uFADEPOS = shader_get_uniform(sdr_colorizer, "f_FadePos");
 shader_set_uniform_f(uCOLOR, global.cc_r, global.cc_g, global.cc_b, global.cc_a);
 shader_set_uniform_f(uFADECOLOR, global.tc_r, global.tc_g, global.tc_b, global.tc_a);
-shader_set_uniform_f(uFADEPOS, 0);
+shader_set_uniform_f(uFADEPOS, global.clr_trans_amt / global.clr_trans_max);
 
 // Check surroundings to see which sides of the wall to draw
 for(var i = -1; i <= 1; i++) {

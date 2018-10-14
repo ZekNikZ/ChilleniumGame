@@ -7,6 +7,8 @@ if (other.shape == SHAPE.TRIANGLE && other.image_yscale == -1) {
 				break;
 			case COLOR.GREEN:
 				target_color = COLOR.YELLOW;
+				global.cp_color = COLOR.WHITE;
+				global.hit_checkpoint = true;
 				break;
 			case COLOR.YELLOW:
 				target_color = COLOR.BLUE;
@@ -17,4 +19,8 @@ if (other.shape == SHAPE.TRIANGLE && other.image_yscale == -1) {
 		}
 		global.gamecolor = COLOR.WHITE;
 	}
+} else {
+	//room_restart();
+	other.trans_state = 3;
+	other.trans_on = true;
 }

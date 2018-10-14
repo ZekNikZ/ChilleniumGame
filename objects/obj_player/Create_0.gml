@@ -2,6 +2,10 @@
 if (global.hit_checkpoint) {
 	x = global.spawnx;
 	y = global.spawny;
+	global.gamecolor = global.cp_color;
+	if (instance_exists(obj_boss)) {
+		obj_boss.target_color = COLOR.YELLOW;
+	}
 }
 
 // Movement setup
@@ -28,3 +32,9 @@ image_speed = 0;
 player_control = true;
 
 air_time = 0;
+
+trans_cnt = 0;
+trans_cnt_max = 5;
+trans_state = 0;
+trans_on = false;
+scl = 1;
