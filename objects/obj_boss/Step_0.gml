@@ -40,12 +40,13 @@ if (shooting_cooldown < 0) {
 	} else {
 		var inst = instance_create_layer(x, y, "CharacterLayer", obj_boss_drop);
 		with (inst) {
-			direction = point_direction(other.x, other.y, obj_player.x, obj_player.y);
+			var dir = point_direction(other.x, other.y, obj_player.x, obj_player.y);
+			direction = clamp(dir + (dir < 90 ? 999999 : 0), 210, 330);
 			speed = 10;
 			image_angle = direction - 90;
 			target_color = tc;
 		}
-		audio_sound_pitch(sfx_bossshoot, 1.3);
+		audio_sound_pitch(sfx_bossshoot, 1.4);
 	}
 	shooting_cooldown = shooting_cooldown_max;
 	audio_sound_gain(sfx_bossshoot, 0.5, 0);

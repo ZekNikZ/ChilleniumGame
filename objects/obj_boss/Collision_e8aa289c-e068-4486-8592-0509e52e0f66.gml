@@ -25,6 +25,7 @@ if (other.shape == SHAPE.TRIANGLE && other.image_yscale == -1) {
 		}
 		global.gamecolor = COLOR.WHITE;
 		spawn_cooldown = 5;
+		spt_checkpoint_notice();
 	}
 } else if (!other.dead) {
 	//room_restart();
