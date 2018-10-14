@@ -25,7 +25,7 @@ if (shooting_cooldown < 0) {
 		tc = target_color;
 	}
 	other.spawn_count--;
-	if (tc != target_color) {
+	if (tc != target_color || instance_exists(obj_boss_drop) || global.gamecolor == target_color) {
 		var inst = instance_create_layer(x, y, "CharacterLayer", obj_boss_bullet);
 		with (inst) {
 			direction = point_direction(other.x, other.y, obj_player.x, obj_player.y);
