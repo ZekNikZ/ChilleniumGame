@@ -12,7 +12,8 @@ if (global.gamecolor == target_color) {
 	for(var i = -1; i <= 1; i++) {
 		for(var j = -1; j <= 1; j++) {
 			if (i == 0 && j == 0) continue;
-			if (!place_meeting(x + j * sprite_width, y + i * sprite_height, obj_move_wall)) {
+			var inst = instance_position(x + j * sprite_width, y + i * sprite_height, obj_move_wall_hidden);
+			if (!position_meeting(x + j * sprite_width, y + i * sprite_height, obj_move_wall) || !inst.solid) {
 				draw_sprite_ext(spr_walls, (i + 1) * 3 + (j + 1), x, y, 1, 1, 0, c_white, 1);
 			}
 		}
