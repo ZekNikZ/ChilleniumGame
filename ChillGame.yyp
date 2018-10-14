@@ -96,6 +96,25 @@
             }
         },
         {
+            "Key": "03460f2e-c374-4e08-97a1-a21997bd965e",
+            "Value": {
+                "id": "ea7fd085-9594-4960-b0f1-6e3f8ee56589",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sfx_slam\/sfx_slam.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "071537fe-7a8b-40ac-81c8-91a07e5d5412",
             "Value": {
                 "id": "e4698f68-372c-4746-9ec1-7aaf99ed7e0f",
@@ -871,6 +890,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/spr_player_chev_jump\/spr_player_chev_jump.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "57adeac4-fd71-42ac-924e-2dec91a8cb04",
+            "Value": {
+                "id": "90bc0b9d-63e7-49ff-a2ee-9abfe456d240",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_player_triangle1\/spr_player_triangle1.yy",
                 "resourceType": "GMSprite"
             }
         },

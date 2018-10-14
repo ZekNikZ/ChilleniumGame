@@ -50,7 +50,12 @@ if (trans_on) {
 	}
 } else {
 	// Draw the player
-	draw_sprite_ext(sprite_index, -1, x, y, scl, scl * (1-2*clamp(air_time, 0, 5) / 5), 0, c_white, 1);
+	//draw_sprite_ext(sprite_index, -1, x, y, scl, scl * (1-2*clamp(air_time, 0, 5) / 5), 0, c_white, 1);
+	if (slamming) {
+		draw_sprite_ext(spr_player_triangle1, -1, x, y, scl, scl, 0, c_white, 1);
+	} else {
+		draw_sprite_ext(sprite_index, -1, x, y, scl, scl, 0, c_white, 1);
+	}
 }
 
 shader_reset();
