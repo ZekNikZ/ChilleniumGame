@@ -519,6 +519,14 @@
             }
         },
         {
+            "Key": "688c5004-8e7b-4994-883f-54471c2ea9cd",
+            "Value": {
+                "id": "c5cf01d2-29c9-4a1e-8dc5-8223edaffb2f",
+                "resourcePath": "sprites\\spr_text_boss_blue\\spr_text_boss_blue.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6988fbcf-a0c1-4d9e-b0f9-113c13d11e90",
             "Value": {
                 "id": "5c7eb8a7-8cfd-498c-bdb6-20b13631f396",
@@ -532,6 +540,14 @@
                 "id": "2a4ce37c-a676-4f0e-8c77-77eca822669a",
                 "resourcePath": "views\/6a37b5b7-4635-4a25-8905-0cd86e8cd190.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6afa9128-1656-4b5f-9793-074738e92a6d",
+            "Value": {
+                "id": "230c5f0f-00d9-43ab-8a6b-ea4275531a9e",
+                "resourcePath": "sprites\\spr_text_boss_yellow\\spr_text_boss_yellow.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -839,6 +855,14 @@
             }
         },
         {
+            "Key": "ac3ab7de-9dc9-4ac8-b12b-9f6c2ca82fc4",
+            "Value": {
+                "id": "3682444b-e9d1-4863-9137-ace5111be1c2",
+                "resourcePath": "sprites\\spr_text_boss_start\\spr_text_boss_start.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ad4e1e34-f9b9-4633-af93-22eb77aececb",
             "Value": {
                 "id": "4072089f-6ed6-47be-b182-5c3b13e95e0a",
@@ -1068,6 +1092,14 @@
                 "id": "07ac851a-0a29-4333-9e73-809b12dbc281",
                 "resourcePath": "rooms\/rm_level_01\/rm_level_01.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "c542a811-310d-49dd-97f1-cbbb14ce9636",
+            "Value": {
+                "id": "89751fde-1bfe-4abf-a8f5-703495b5f563",
+                "resourcePath": "sprites\\spr_text_boss_red\\spr_text_boss_red.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1404,6 +1436,14 @@
                 "id": "a3c44af7-f6cc-49fe-abc0-cf0f5e7299b1",
                 "resourcePath": "objects\/obj_filter_wall\/obj_filter_wall.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f7682870-ee63-4f71-ad39-2f8703874248",
+            "Value": {
+                "id": "9fd16515-5f83-414b-b76c-0af8f90dae73",
+                "resourcePath": "sprites\\spr_text_boss_green\\spr_text_boss_green.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
