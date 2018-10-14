@@ -13,7 +13,9 @@
         "c30adadd-bb42-4758-9279-299aafcfc40a",
         "ed6a9163-e76c-42ad-9dda-0dd6e8020d7b",
         "c40e32a9-b0c7-48ce-88f3-b6dd376b3de8",
-        "dbc428f7-c3e6-4802-b58a-087f4e962d7e"
+        "dbc428f7-c3e6-4802-b58a-087f4e962d7e",
+        "5cb7537e-c3c9-4aae-b789-9e2a32bc64ab",
+        "2451bdef-03b3-475e-b324-b4763ca0a15b"
     ],
     "filterType": "GMSprite",
     "folderName": "text",
