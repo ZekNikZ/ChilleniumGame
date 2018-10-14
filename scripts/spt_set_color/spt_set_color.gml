@@ -18,8 +18,8 @@ switch (target_color) {
 		cc_a = 1;
 		break;
 	case COLOR.BLUE:
-		cc_r = 0;
-		cc_g = 0;
+		cc_r = 0.4;
+		cc_g = 0.4;
 		cc_b = 1;
 		cc_a = 1;
 		break;

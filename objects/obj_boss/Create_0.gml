@@ -19,7 +19,7 @@ bob_start_pos = y;
 
 color_spd = 1;
 
-target_color = COLOR.RED;
+target_color = COLOR.YELLOW;
 
 shooting_cooldown_max = 60;
 shooting_cooldown = 120;
