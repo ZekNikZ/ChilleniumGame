@@ -1,8 +1,10 @@
 /// @description Check shape of player.
+
 // Check for triangle.
 if (obj_player.shp_triangle == 1) && (obj_player.shape != SHAPE.TRIANGLE)
 {
 	display_tri = true;
+	display_shapes = true;
 }
 else display_tri = false;
 
