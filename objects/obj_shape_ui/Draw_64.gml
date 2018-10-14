@@ -69,7 +69,7 @@ switch (global.gamecolor) {
 		cccc = c_red;
 		break;
 	case COLOR.GREEN:
-		cccc = make_color_rgb(0, 1, 0);
+		cccc = make_color_rgb(0, 255, 0);
 		break;
 	case COLOR.BLUE:
 		cccc = make_color_rgb(0.4 * 255, 0.4 * 255, 255);
