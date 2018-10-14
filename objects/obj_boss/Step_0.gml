@@ -41,7 +41,7 @@ if (shooting_cooldown < 0) {
 		var inst = instance_create_layer(x, y, "CharacterLayer", obj_boss_drop);
 		with (inst) {
 			var dir = point_direction(other.x, other.y, obj_player.x, obj_player.y);
-			direction = clamp(dir + (dir < 90 ? 999999 : 0), 210, 330);
+			direction = clamp(dir + (dir < 90 ? 999999 : 0), 200, 340);
 			speed = 10;
 			image_angle = direction - 90;
 			target_color = tc;
