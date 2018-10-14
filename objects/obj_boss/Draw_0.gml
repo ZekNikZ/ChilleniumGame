@@ -17,3 +17,7 @@ if (global.gamecolor != target_color) {
 	
 	shader_reset();
 }
+
+if (tutorial) {
+	draw_sprite_ext(spr_text_boss_red, -1, 1280, 1344, 0.5, 0.5, 0, c_white, 1);
+}

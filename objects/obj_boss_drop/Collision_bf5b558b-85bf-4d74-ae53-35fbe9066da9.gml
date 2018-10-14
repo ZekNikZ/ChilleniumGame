@@ -8,4 +8,8 @@ if (global.clr_do_transitions) {
 
 audio_play_sound(sfx_colorchange, 1, false);
 
+if (instance_exists(obj_boss)) {
+	obj_boss.tutorial = false;
+}
+
 instance_destroy();

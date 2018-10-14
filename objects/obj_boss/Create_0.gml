@@ -52,3 +52,5 @@ spawn_cooldown = 5;
 audio_sound_pitch(sfx_music1, 1.4);
 audio_stop_sound(sfx_music1);
 audio_play_sound(sfx_music1, 0, true);
+
+tutorial = true;
