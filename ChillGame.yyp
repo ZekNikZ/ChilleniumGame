@@ -471,14 +471,6 @@
             }
         },
         {
-            "Key": "5cb7537e-c3c9-4aae-b789-9e2a32bc64ab",
-            "Value": {
-                "id": "95be1c1a-a5ad-4e6a-8d37-46a7f6b51a00",
-                "resourcePath": "sprites\\spr_text_go_green\\spr_text_go_green.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "6126f337-c32b-4b75-8c7a-1e500b4662b7",
             "Value": {
                 "id": "9e54da2e-2514-4bbc-bfbb-b241b3f9f1e0",
