@@ -19,7 +19,8 @@ if (other.shape == SHAPE.TRIANGLE && other.image_yscale == -1) {
 				global.hit_checkpoint = true;
 				break;
 			case COLOR.BLUE:
-				instance_destroy();
+				spt_transition(TRANSITION_STATE.GOTO, rm_final);
+				//instance_destroy();
 				break;
 		}
 		global.gamecolor = COLOR.WHITE;
