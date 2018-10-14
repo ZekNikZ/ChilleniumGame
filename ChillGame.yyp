@@ -210,6 +210,14 @@
             }
         },
         {
+            "Key": "0de5084b-f093-4e2d-8b50-8dfd6f80d69a",
+            "Value": {
+                "id": "db76cb36-3733-4946-a9b0-2592904a2869",
+                "resourcePath": "sprites\\spr_text_circle\\spr_text_circle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0decb96c-be8e-48d4-bbf0-8f5999a33ccd",
             "Value": {
                 "id": "a4164e42-6f01-4980-9446-b36cfe39676f",
@@ -986,6 +994,14 @@
                 ],
                 "resourcePath": "views\/6a37b5b7-4635-4a25-8905-0cd86e8cd190.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6de89d43-f4f3-45d3-b3c6-8c5a449a0626",
+            "Value": {
+                "id": "b92ff10b-201b-4b3d-8dc5-680297d0171d",
+                "resourcePath": "sprites\\spr_text_double_jump\\spr_text_double_jump.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1863,6 +1879,14 @@
             }
         },
         {
+            "Key": "bc48e143-261a-4ae2-9307-a001bdf0a7d5",
+            "Value": {
+                "id": "3e3832cf-1730-4850-b350-e73378177692",
+                "resourcePath": "sprites\\spr_text_color\\spr_text_color.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bd50a987-cf93-411d-82a3-7186f6f2eb48",
             "Value": {
                 "id": "1d730253-4322-4fad-8a3a-27fcac1ee876",
@@ -1974,6 +1998,14 @@
                 ],
                 "resourcePath": "objects\/obj_enemy_snake_boss\/obj_enemy_snake_boss.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c30adadd-bb42-4758-9279-299aafcfc40a",
+            "Value": {
+                "id": "cefc0f9b-06d8-4058-a5b9-1a1b0ad85aca",
+                "resourcePath": "sprites\\spr_text_triangle\\spr_text_triangle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2107,6 +2139,14 @@
                 ],
                 "resourcePath": "objects\/obj_move_wall\/obj_move_wall.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ce79dcf5-64ec-4c8c-94ad-3d886d9f65a9",
+            "Value": {
+                "id": "27bdf9d3-a55d-49c7-b2b7-8ac84161ddf1",
+                "resourcePath": "sprites\\spr_text_level_end\\spr_text_level_end.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
