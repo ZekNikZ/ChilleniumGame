@@ -84,7 +84,7 @@ if (player_control != false)
 		}
 		// Triangle slam screen shake
 		if(slamming) {
-			spt_screenshake(3, 30);
+			spt_screenshake(10, 30);
 			slamming = false;
 		}
 		vsp = 0;

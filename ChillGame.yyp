@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "08d9170c-af42-4e94-a0df-e51f3dbaa96b",
+            "Value": {
+                "id": "4f46e976-e3ea-45af-a156-eceb58269d6d",
+                "resourcePath": "objects\\obj_fun_text\\obj_fun_text.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "094dbb8b-30af-462e-8dbd-7674ff909971",
             "Value": {
                 "id": "fb4ce99d-8780-4392-8837-977e61ac25d2",
@@ -303,6 +311,14 @@
             }
         },
         {
+            "Key": "4d422409-5b3f-454c-981e-416da4b62208",
+            "Value": {
+                "id": "0c0c841d-3df0-4a5a-8a20-4c0121c34a16",
+                "resourcePath": "fonts\\fnt_tips\\fnt_tips.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "4effb021-4bc9-48f8-9aea-c81d9274a339",
             "Value": {
                 "id": "6c3be9b2-d240-4bc8-8f66-a3f7d46850cb",
@@ -527,6 +543,14 @@
             }
         },
         {
+            "Key": "9da45f1b-fca1-42ef-87d5-17e97fa94de5",
+            "Value": {
+                "id": "7c7b2577-040e-41e9-ac9c-5e9e6b1910c2",
+                "resourcePath": "objects\\obj_text_display\\obj_text_display.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a04cece0-3ca4-41a9-ba42-96795a4cfed1",
             "Value": {
                 "id": "0ad3853b-8250-4489-9c71-4fa83bceda7a",
@@ -548,6 +572,14 @@
                 "id": "d1aebd2a-ffef-4acb-9be5-1eb35ccd99e5",
                 "resourcePath": "sprites\/spr_vis_wall_yellow_filter\/spr_vis_wall_yellow_filter.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a1c470a1-109f-4054-86ed-fb7bd205c7f9",
+            "Value": {
+                "id": "71488e72-3356-45fd-a3a3-a57278b48b27",
+                "resourcePath": "views\\a1c470a1-109f-4054-86ed-fb7bd205c7f9.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1020,6 +1052,14 @@
                 "id": "686f084e-219a-40f1-b811-03327891006c",
                 "resourcePath": "objects\/obj_unlock_chevron\/obj_unlock_chevron.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ed6a9163-e76c-42ad-9dda-0dd6e8020d7b",
+            "Value": {
+                "id": "2bcd7071-c5b1-456e-9172-03012c4aeb38",
+                "resourcePath": "sprites\\spr_text_wasd\\spr_text_wasd.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
