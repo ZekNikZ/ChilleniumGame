@@ -22,4 +22,4 @@ lvl[1] = "Level 6"
 lvl[0] = "Return to Menu";
 
 menu_items = array_length_1d(lvl);
-menu_cursor = 5;
+menu_cursor = 6;
