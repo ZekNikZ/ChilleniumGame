@@ -3,6 +3,7 @@
 
 if (mode != TRANSITION_STATE.OFF)
 {
+	timer++;
 	if (mode == TRANSITION_STATE.INTRO)
 	{
 		percent = max(0, percent - max(percent / 10, 0.005));
@@ -39,5 +40,7 @@ if (mode != TRANSITION_STATE.OFF)
 			}
 		}
 	}
-}	
+} else {
+	timer = 0;
+}
 

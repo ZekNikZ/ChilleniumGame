@@ -8,4 +8,9 @@ mode = TRANSITION_STATE.INTRO;
 percent = 1;
 target = room;
 
+timer = 0;
+timer_max = 60;
+
 global.gamecolor = COLOR.WHITE;
+
+surface = surface_create(room_width, room_height);
