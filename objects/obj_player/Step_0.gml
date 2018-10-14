@@ -10,6 +10,7 @@ if (player_control != false)
 	key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 	key_jump = keyboard_check_pressed(vk_space);
 	key_fly = keyboard_check(vk_space);
+	key_shift = keyboard_check_pressed(vk_shift);
 
 
 	// Horizontal movement
@@ -105,7 +106,7 @@ if (player_control != false)
 // # Changing Shapes #
 // ###################
 
-// Square
+/*// Square
 if (keyboard_check(ord("1"))) {
 	if (!trans_on && shape != SHAPE.SQUARE) {
 		next_sprite_index = spr_player_square;
@@ -145,5 +146,36 @@ if (shp_chevron == 1) {
 		next_sprite_index = spr_player_chev;
 		trans_on = true;
 	}
+}*/
+
+if (shape == SHAPE.SQUARE) && (!trans_on) && (key_shift) {
+	if (shp_triangle == 1) {
+		shape = SHAPE.TRIANGLE;
+		next_sprite_index = spr_player_triangle;
+		trans_on = true;
+	}
+	else if (shp_circle == SHAPE.CIRCLE) {
+		shape = SHAPE.CIRCLE;
+		next_sprite_index = spr_player_circle;
+		trans_on = true;
+	}
 }
 
+if (shape == SHAPE.TRIANGLE) && (!trans_on) && (key_shift) {
+	if (shp_circle == 1) {
+		shape = SHAPE.CIRCLE;
+		next_sprite_index = spr_player_circle;
+		trans_on = true;
+	}
+	else {
+		shape = SHAPE.SQUARE;
+		next_sprite_index = spr_player_square;
+		trans_on = true;
+	}
+}
+
+if (shape == SHAPE.CIRCLE) && (!trans_on) && (key_shift) {
+	shape = SHAPE.SQUARE;
+	next_sprite_index = spr_player_square;
+	trans_on = true;
+}
