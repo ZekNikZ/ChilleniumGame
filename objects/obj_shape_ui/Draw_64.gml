@@ -5,9 +5,15 @@ draw_set_valign(fa_bottom);
 
 for (var i = 0; i < 3; i++)
 {
+	var soffset = 2;
 	var offset = 0;
 	if (display_shapes == true)
 	{
+		draw_set_color(c_black);
+		draw_text(30+soffset,50,"Available Shapes:");
+		draw_text(30-soffset,50,"Available Shapes:");
+		draw_text(30,50+soffset,"Available Shapes:");
+		draw_text(30,50-soffset,"Available Shapes:");
 		draw_set_color(c_white);
 		draw_text(30,50,"Available Shapes:")
 	}
