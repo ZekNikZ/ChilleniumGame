@@ -1,3 +1,5 @@
+event_inherited();
+
 // Allow player to change to circle
 with (obj_player) {
 	shp_chevron = 1;

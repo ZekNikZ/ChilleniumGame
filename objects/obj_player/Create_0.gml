@@ -38,3 +38,5 @@ trans_cnt_max = 5;
 trans_state = 0;
 trans_on = false;
 scl = 1;
+
+dead = false;

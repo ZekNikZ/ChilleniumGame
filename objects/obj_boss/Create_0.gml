@@ -29,3 +29,4 @@ circle_spawned = false;
 randomize();
 
 spawn_count = 6;
+spawn_cooldown = 5;
