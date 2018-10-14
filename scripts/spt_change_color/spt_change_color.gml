@@ -18,8 +18,8 @@ switch (global.gamecolor) {
 		global.cc_a = 1;
 		break;
 	case COLOR.BLUE:
-		global.cc_r = 0;
-		global.cc_g = 0;
+		global.cc_r = 0.4;
+		global.cc_g = 0.4;
 		global.cc_b = 1;
 		global.cc_a = 1;
 		break;

@@ -74,7 +74,7 @@ if (menu_committed != -1) // && (menu_x > gui_width+150)
 		{
 			if(obj_room_unlock_contoller.room_unlock >=3)
 			{
-				spt_transition(TRANSITION_STATE.GOTO,rm_level_03); 
+				//spt_transition(TRANSITION_STATE.GOTO,rm_level_03); 
 			}
 			else spt_screenshake(1,1); menu_committed = -1; menu_control = true;
 			break;
@@ -84,7 +84,7 @@ if (menu_committed != -1) // && (menu_x > gui_width+150)
 			if(obj_room_unlock_contoller.room_unlock >= 4)
 			{
 				menu_x_target = gui_width+200;
-				//spt_transition(TRANSITION_STATE.GOTO,rm_level_04); 
+				spt_transition(TRANSITION_STATE.GOTO,rm_level_04); 
 			}
 			else spt_screenshake(10,10); menu_committed = -1; menu_control = true;
 			break;
@@ -94,7 +94,7 @@ if (menu_committed != -1) // && (menu_x > gui_width+150)
 			if(obj_room_unlock_contoller.room_unlock >= 5)
 			{
 				menu_x_target = gui_width+200;
-				//spt_transition(TRANSITION_STATE.GOTO,rm_level_05); 
+				spt_transition(TRANSITION_STATE.GOTO,rm_level_boss); 
 			}
 			else spt_screenshake(10,10); menu_committed = -1; menu_control = true;
 			break;
