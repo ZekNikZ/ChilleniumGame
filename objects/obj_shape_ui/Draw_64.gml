@@ -19,18 +19,33 @@ for (var i = 0; i < 3; i++)
 	}
 	if (display_squ == true)
 	{
+		draw_set_color(c_black);
+		draw_text(50+soffset,70+ offset,"Square");
+		draw_text(50-soffset,70+ offset,"Square");
+		draw_text(50,70+soffset+ offset,"Square");
+		draw_text(50,70-soffset+ offset,"Square");
 		draw_set_color(c_white)
 		draw_text(50,70,"Square")
 		offset += 20;
 	}
 	if (display_tri == true)
 	{
+		draw_set_color(c_black);
+		draw_text(50+soffset,70+ offset,"Triangle");
+		draw_text(50-soffset,70+ offset,"Triangle");
+		draw_text(50,70+soffset+ offset,"Triangle");
+		draw_text(50,70-soffset+ offset,"Triangle");
 		draw_set_color(c_white)
 		draw_text(50,70 + offset,"Triangle")
 		offset += 20;
 	}
 	if (display_cir == true)
 	{
+		draw_set_color(c_black);
+		draw_text(50+soffset,70+ offset,"Circle");
+		draw_text(50-soffset,70+ offset,"Circle");
+		draw_text(50,70+soffset+ offset,"Circle");
+		draw_text(50,70-soffset+ offset,"Circle");
 		draw_set_color(c_white)
 		draw_text(50,70 + offset,"Circle")
 		offset += 20;
