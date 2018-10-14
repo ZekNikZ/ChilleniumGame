@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "033b2dd7-f689-4e16-9346-2e40b27ec909",
+            "Value": {
+                "id": "0a1ce88c-86b4-45dc-80d2-7e803ffa27b6",
+                "resourcePath": "sprites\\spr_firework\\spr_firework.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "03460f2e-c374-4e08-97a1-a21997bd965e",
             "Value": {
                 "id": "ea7fd085-9594-4960-b0f1-6e3f8ee56589",
