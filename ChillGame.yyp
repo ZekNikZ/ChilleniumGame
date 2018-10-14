@@ -1103,6 +1103,14 @@
             }
         },
         {
+            "Key": "7c9dd62f-16a0-4c08-84b9-5f8fa02d393d",
+            "Value": {
+                "id": "604f4e27-e136-4182-8a14-433bbb9b0e18",
+                "resourcePath": "sprites\\spr_text_jump\\spr_text_jump.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7e543f45-6fa4-41bc-80d1-9fed6694a9e6",
             "Value": {
                 "id": "40d185e1-d929-4c1e-82e3-eedbf6d5156f",
