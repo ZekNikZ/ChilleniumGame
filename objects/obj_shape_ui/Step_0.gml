@@ -12,6 +12,7 @@ else display_tri = false;
 if (obj_player.shp_circle == 1) && (obj_player.shape != SHAPE.CIRCLE)
 {
 	display_cir = true;
+	display_shapes = true;
 }
 else display_cir = false;
 
@@ -19,5 +20,6 @@ else display_cir = false;
 if (obj_player.shape != SHAPE.SQUARE)
 {
 	display_squ = true;
+	display_shapes = true;
 }
 else display_squ = false;
