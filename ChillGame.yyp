@@ -543,14 +543,6 @@
             }
         },
         {
-            "Key": "9da45f1b-fca1-42ef-87d5-17e97fa94de5",
-            "Value": {
-                "id": "7c7b2577-040e-41e9-ac9c-5e9e6b1910c2",
-                "resourcePath": "objects\\obj_tips_display\\obj_tips_display.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "a04cece0-3ca4-41a9-ba42-96795a4cfed1",
             "Value": {
                 "id": "0ad3853b-8250-4489-9c71-4fa83bceda7a",
