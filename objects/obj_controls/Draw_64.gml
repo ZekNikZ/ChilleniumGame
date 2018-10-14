@@ -1,4 +1,9 @@
 /// @description Draw Menu screens.
+cnt++;
+
+var c_color = make_color_hsv((cnt * color_spd) % 256, 128, 255);	
+
+
 draw_set_font(fnt_menu);
 draw_set_halign(fa_right);
 draw_set_valign(fa_bottom);
@@ -10,7 +15,7 @@ for (var i = 0; i < menu_items; i++)
 	if (menu_cursor == i)
 	{
 		txt = string_insert("> ", txt, 0);
-		var col = c_white;		
+		var col = c_color;		
 	}
 	else 
 	{
@@ -41,7 +46,7 @@ draw_text(xx-offset,yy,txt);
 draw_text(xx+offset,yy,txt);	
 draw_text(xx,yy-offset,txt);
 draw_text(xx,yy+offset,txt);
-draw_set_color(c_white);
+draw_set_color(c_color);
 draw_text(xx,yy,txt);
 
 xx = (1024/2);
@@ -53,7 +58,7 @@ draw_text(xx-offset,yy,txt);
 draw_text(xx+offset,yy,txt);	
 draw_text(xx,yy-offset,txt);
 draw_text(xx,yy+offset,txt);
-draw_set_color(c_white);
+draw_set_color(c_color);
 draw_text(xx,yy,txt);
 
 // "Shape Change"
@@ -66,7 +71,7 @@ draw_text(xx-offset,yy,txt);
 draw_text(xx+offset,yy,txt);	
 draw_text(xx,yy-offset,txt);
 draw_text(xx,yy+offset,txt);
-draw_set_color(c_white);
+draw_set_color(c_color);
 draw_text(xx,yy,txt);
 /*
 // "Shape Change:" Header
@@ -161,7 +166,7 @@ draw_text(xx-offset,yy,txt);
 draw_text(xx+offset,yy,txt);	
 draw_text(xx,yy-offset,txt);
 draw_text(xx,yy+offset,txt);
-draw_set_color(c_white);
+draw_set_color(c_color);
 draw_text(xx,yy,txt);
 
 xx = (1024/2);
@@ -173,5 +178,5 @@ draw_text(xx-offset,yy,txt);
 draw_text(xx+offset,yy,txt);	
 draw_text(xx,yy-offset,txt);
 draw_text(xx,yy+offset,txt);
-draw_set_color(c_white);
+draw_set_color(c_color);
 draw_text(xx,yy,txt);

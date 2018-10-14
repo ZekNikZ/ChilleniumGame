@@ -17,3 +17,6 @@ menu[0] = "Return to Menu";
 
 menu_items = array_length_1d(menu);
 menu_cursor = 0;
+
+cnt = 0;
+color_spd = 0.5;

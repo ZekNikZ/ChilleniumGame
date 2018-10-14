@@ -5,14 +5,18 @@ if (other.shape == SHAPE.TRIANGLE && other.image_yscale == -1) {
 		switch (target_color) {
 			case COLOR.RED:
 			    target_color = COLOR.GREEN;
+				global.cp_color = COLOR.GREEN;
+				global.hit_checkpoint = true;
 				break;
 			case COLOR.GREEN:
 				target_color = COLOR.YELLOW;
-				global.cp_color = COLOR.WHITE;
+				global.cp_color = COLOR.YELLOW;
 				global.hit_checkpoint = true;
 				break;
 			case COLOR.YELLOW:
 				target_color = COLOR.BLUE;
+				global.cp_color = COLOR.BLUE;
+				global.hit_checkpoint = true;
 				break;
 			case COLOR.BLUE:
 				instance_destroy();

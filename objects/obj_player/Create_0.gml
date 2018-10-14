@@ -3,9 +3,9 @@ if (global.hit_checkpoint) {
 	x = global.spawnx;
 	y = global.spawny;
 	global.gamecolor = global.cp_color;
-	if (instance_exists(obj_boss)) {
-		obj_boss.target_color = COLOR.YELLOW;
-	}
+	//if (instance_exists(obj_boss)) {
+	//	obj_boss.target_color = COLOR.YELLOW;
+	//}
 }
 
 // Movement setup

@@ -19,7 +19,12 @@ bob_start_pos = y;
 
 color_spd = 1;
 
-target_color = COLOR.RED;
+if (global.hit_checkpoint) {
+	target_color = global.cp_color;
+	global.gamecolor = COLOR.WHITE;
+} else {
+	target_color = COLOR.RED;
+}
 
 shooting_cooldown_max = 60;
 shooting_cooldown = 120;
