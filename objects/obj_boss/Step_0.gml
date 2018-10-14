@@ -11,13 +11,20 @@ if (shooting_cooldown < 0) {
 	with (inst) {
 		direction = point_direction(other.x, other.y, obj_player.x, obj_player.y);
 		speed = 10;
-		var c = floor(random_range(0, 5));
-		switch (c) {
-			case 0: target_color = COLOR.WHITE; break;
-			case 1: target_color = COLOR.RED; break;
-			case 2: target_color = COLOR.BLUE; break;
-			case 3: target_color = COLOR.GREEN; break;
-			case 4: target_color = COLOR.YELLOW; break;
+		if (other.spawn_count > 0) {
+			var c = floor(random_range(0, 5));
+			switch (c) {
+				case 0: target_color = COLOR.WHITE; break;
+				case 1: target_color = COLOR.RED; break;
+				case 2: target_color = COLOR.BLUE; break;
+				case 3: target_color = COLOR.GREEN; break;
+				case 4: target_color = COLOR.YELLOW; break;
+			}
+			if (target_color == other.target_color) other.spawn_count = 8;
+			other.spawn_count--;
+		} else {
+			target_color = other.target_color;
+			other.spawn_count = 8;
 		}
 	}
 	shooting_cooldown = shooting_cooldown_max;

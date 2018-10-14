@@ -27,3 +27,5 @@ shooting_cooldown = 120;
 circle_spawned = false;
 
 randomize();
+
+spawn_count = 6;
