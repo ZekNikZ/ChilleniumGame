@@ -20,7 +20,7 @@ if (other.shape == SHAPE.TRIANGLE && other.image_yscale == -1) {
 		global.gamecolor = COLOR.WHITE;
 		spawn_cooldown = 5;
 	}
-} else {
+} else if (!other.dead) {
 	//room_restart();
 	other.trans_state = 3;
 	other.trans_on = true;
