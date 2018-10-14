@@ -66,6 +66,12 @@ if (player_control != false)
 			can_double = false;
 		}
 	}
+	
+	if (slamming) {
+		air_time++;
+	} else {
+		air_time = 0;
+	}
 
 	// Horizontal Collision Check and Movement
 	if (!place_free(x + h_move, y)) {
@@ -84,7 +90,7 @@ if (player_control != false)
 		}
 		// Triangle slam screen shake
 		if(slamming) {
-			spt_screenshake(10, 30);
+			spt_screenshake(air_time / 3, 30);
 			slamming = false;
 		}
 		vsp = 0;

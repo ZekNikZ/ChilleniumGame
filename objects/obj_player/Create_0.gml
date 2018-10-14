@@ -21,4 +21,4 @@ image_speed = 0;
 // Player Control
 player_control = true;
 
-
+air_time = 0;
