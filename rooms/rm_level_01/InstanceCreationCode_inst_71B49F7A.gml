@@ -1,1 +1,1 @@
-target_color=COLOR.RED;
+target_color=COLOR.WHITE;
