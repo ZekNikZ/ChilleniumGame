@@ -19,7 +19,11 @@ bob_start_pos = y;
 
 color_spd = 1;
 
-target_color = COLOR.YELLOW;
+target_color = COLOR.RED;
 
 shooting_cooldown_max = 60;
 shooting_cooldown = 120;
+
+circle_spawned = false;
+
+randomize();
