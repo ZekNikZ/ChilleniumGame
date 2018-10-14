@@ -1,3 +1,9 @@
+// If Checkpoint was reached
+if (global.hit_checkpoint) {
+	x = global.spawnx;
+	y = global.spawny;
+}
+
 // Movement setup
 hsp = 10;
 vsp = 0;
