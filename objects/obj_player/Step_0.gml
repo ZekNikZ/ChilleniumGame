@@ -95,6 +95,9 @@ if (player_control != false)
 		if(slamming) {
 			spt_screenshake(air_time / 3, 30);
 			slamming = false;
+			if (air_time > 10) {
+				audio_play_sound(sfx_slam, 1, false);
+			}
 		}
 		vsp = 0;
 		image_yscale = 1;
