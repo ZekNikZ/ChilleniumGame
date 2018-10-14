@@ -1,4 +1,4 @@
-if (image_xscale==1)
+if (image_xscale==1 && !other.dead)
 {
 	if (other.shape = SHAPE.TRIANGLE && other.image_yscale = -1)
 	{

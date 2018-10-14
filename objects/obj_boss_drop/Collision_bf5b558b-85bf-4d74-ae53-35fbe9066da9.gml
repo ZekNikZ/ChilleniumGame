@@ -6,4 +6,6 @@ if (global.clr_do_transitions) {
 	global.gamecolor = target_color;
 }
 
+audio_play_sound(sfx_colorchange, 1, false);
+
 instance_destroy();
