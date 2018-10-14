@@ -17,6 +17,10 @@ if (shooting_cooldown < 0) {
 			case 3: tc = COLOR.GREEN; break;
 			case 4: tc = COLOR.YELLOW; break;
 		}
+		if (spawn_cooldown > 0 && tc == target_color) {
+			tc = COLOR.WHITE;
+		}
+		spawn_cooldown--;
 		if (tc == target_color) {
 			other.spawn_count = 8;
 		}
@@ -32,6 +36,7 @@ if (shooting_cooldown < 0) {
 			speed = 10;
 			target_color = tc;
 		}
+		audio_sound_pitch(sfx_bossshoot, 1);
 	} else {
 		var inst = instance_create_layer(x, y, "CharacterLayer", obj_boss_drop);
 		with (inst) {
@@ -40,6 +45,9 @@ if (shooting_cooldown < 0) {
 			image_angle = direction - 90;
 			target_color = tc;
 		}
+		audio_sound_pitch(sfx_bossshoot, 1.3);
 	}
 	shooting_cooldown = shooting_cooldown_max;
+	audio_sound_gain(sfx_bossshoot, 0.5, 0);
+	audio_play_sound(sfx_bossshoot, 1, false);
 }

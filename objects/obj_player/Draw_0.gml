@@ -10,15 +10,18 @@ shader_set_uniform_f(uFADEPOS, 0);
 if (trans_on) {
 	switch (trans_state) {
 		case 0:
+			trans_state = 1;
+			break;
+		case 1:
 			trans_cnt++;
 			draw_sprite_ext(sprite_index, -1, x, y, 1 - trans_cnt / trans_cnt_max, 1 - trans_cnt / trans_cnt_max, trans_cnt / trans_cnt_max * 360, c_white, 1);
 			if (trans_cnt >= trans_cnt_max) {
-				trans_state = 1;
+				trans_state = 2;
 				trans_cnt = 0;
 				sprite_index = next_sprite_index;
 			}
 			break;
-		case 1:
+		case 2:
 			trans_cnt++;
 			draw_sprite_ext(sprite_index, -1, x, y, trans_cnt / trans_cnt_max, trans_cnt / trans_cnt_max, trans_cnt / trans_cnt_max * 360, c_white, 1);
 			if (trans_cnt >= trans_cnt_max) {
@@ -28,6 +31,11 @@ if (trans_on) {
 			}
 			break;
 		case 3:
+			audio_play_sound(sfx_die, 2, false);
+			trans_state = 4;
+			dead = true;
+			break;
+		case 4:
 			trans_cnt++;
 			draw_sprite_ext(sprite_index, -1, x, y, 1 - trans_cnt / trans_cnt_max / 3, 1 - trans_cnt / trans_cnt_max / 3, trans_cnt / trans_cnt_max / 3 * 360, c_white, 1);
 			if (trans_cnt >= trans_cnt_max * 3) {

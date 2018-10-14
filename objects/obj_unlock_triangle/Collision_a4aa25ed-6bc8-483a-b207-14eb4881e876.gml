@@ -1,3 +1,5 @@
+event_inherited();
+
 // Allow player to change to triangle
 with (obj_player) {
 	shp_triangle = 1;

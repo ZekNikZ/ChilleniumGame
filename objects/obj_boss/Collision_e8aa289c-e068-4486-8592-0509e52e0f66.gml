@@ -18,6 +18,7 @@ if (other.shape == SHAPE.TRIANGLE && other.image_yscale == -1) {
 				break;
 		}
 		global.gamecolor = COLOR.WHITE;
+		spawn_cooldown = 5;
 	}
 } else {
 	//room_restart();
