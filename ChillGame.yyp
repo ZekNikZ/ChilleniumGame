@@ -628,6 +628,25 @@
             }
         },
         {
+            "Key": "3c1d1401-2274-4f57-b5f8-830855afa860",
+            "Value": {
+                "id": "98eaa951-da46-4e36-a47a-dfaf1f7e925c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_boss_drop\/obj_boss_drop.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3cc974eb-2233-4f08-b842-a5d2cb91ca04",
             "Value": {
                 "id": "7b19a97e-f866-48d7-9018-a73f2cae54a9",
