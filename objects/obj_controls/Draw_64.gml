@@ -122,6 +122,7 @@ draw_text(xx,yy,txt);
 	draw_set_color(c_white);
 	draw_text(xx,yy,txt);
 
+	/*
 	xx = (1024/2)-100;
 	yy = ((768/2)+50);
 	txt = "4 - Chevron"
@@ -133,13 +134,14 @@ draw_text(xx,yy,txt);
 	draw_text(xx,yy+offset,txt);
 	draw_set_color(c_white);
 	draw_text(xx,yy,txt);
+	*/
 	
 // Show Menu Controls
 draw_set_halign(fa_center);
 draw_set_valign(fa_center);
 
 xx = (1024/2);
-yy = ((768/2)+150);
+yy = ((768/2)+100);
 txt = "R - Restart Level"
 
 draw_set_color(c_black);
@@ -151,7 +153,7 @@ draw_set_color(c_white);
 draw_text(xx,yy,txt);
 
 xx = (1024/2);
-yy = ((768/2)+200);
+yy = ((768/2)+150);
 txt = "Esc - Main Menu"
 
 draw_set_color(c_black);
