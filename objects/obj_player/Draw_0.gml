@@ -33,6 +33,7 @@ if (trans_on) {
 		case 3:
 			audio_play_sound(sfx_die, 2, false);
 			trans_state = 4;
+			dead = true;
 			break;
 		case 4:
 			trans_cnt++;
