@@ -685,6 +685,25 @@
             }
         },
         {
+            "Key": "3fbdf989-10b8-4bda-8c36-4421fd288cb6",
+            "Value": {
+                "id": "cda2105a-712f-42bf-a350-5e977cae9dfa",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sfx_kill\/sfx_kill.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "43377143-6ecb-4964-a16a-22d5ac747392",
             "Value": {
                 "id": "6303f324-bfc8-4233-8e1d-14b50b901927",
@@ -1638,7 +1657,18 @@
             "Key": "a509fd74-3c4a-425e-9d75-9be1a2a04d31",
             "Value": {
                 "id": "9d8d27d5-0c6a-4248-8db9-fd539ef46af4",
-                "resourcePath": "fonts\\fnt_ui\\fnt_ui.yy",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "fonts\/fnt_ui\/fnt_ui.yy",
                 "resourceType": "GMFont"
             }
         },

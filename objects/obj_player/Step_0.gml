@@ -35,6 +35,7 @@ if (player_control != false)
 			if (key_jump) {
 			vsp -= 13;
 			in_air = true;
+			audio_play_sound(sfx_jump, 1, false);
 			}
 		}
 
@@ -65,6 +66,7 @@ if (player_control != false)
 			vsp = 0;
 			vsp -= 13;
 			can_double = false;
+			audio_play_sound(sfx_jump, 1, false);
 		}
 	}
 	

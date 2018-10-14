@@ -3,6 +3,7 @@ if (image_xscale==1 && !other.dead)
 	if (other.shape = SHAPE.TRIANGLE && other.image_yscale = -1)
 	{
 		spt_screenshake(10, 30);
+		audio_play_sound(sfx_kill, 1, false);
 		instance_destroy();
 	}
 	else

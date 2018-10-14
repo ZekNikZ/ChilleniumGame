@@ -1,6 +1,7 @@
 if (other.shape == SHAPE.TRIANGLE && other.image_yscale == -1) {
 	spt_screenshake(16, 60);
 	if (global.gamecolor != COLOR.WHITE) {
+		audio_play_sound(sfx_kill, 1, false);
 		switch (target_color) {
 			case COLOR.RED:
 			    target_color = COLOR.GREEN;
