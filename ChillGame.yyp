@@ -871,6 +871,14 @@
             }
         },
         {
+            "Key": "c40e32a9-b0c7-48ce-88f3-b6dd376b3de8",
+            "Value": {
+                "id": "62f6a1e4-5597-4c0e-8c9e-07a8df73249d",
+                "resourcePath": "sprites\\spr_text_shape_change\\spr_text_shape_change.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c4e55312-45ed-4e8c-ac60-51c87fb4fa77",
             "Value": {
                 "id": "07ac851a-0a29-4333-9e73-809b12dbc281",
