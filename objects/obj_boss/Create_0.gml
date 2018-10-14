@@ -19,9 +19,22 @@ bob_start_pos = y;
 
 color_spd = 1;
 
+give_player_triangle = false;
+give_player_circle = false;
+
 if (global.hit_checkpoint) {
 	target_color = global.cp_color;
 	global.gamecolor = COLOR.WHITE;
+	switch(target_color) {
+		case COLOR.BLUE:
+			give_player_circle = true;
+		case COLOR.YELLOW:
+		case COLOR.GREEN:
+			give_player_triangle = true;
+		case COLOR.RED:
+		default:
+			break;
+	}
 } else {
 	target_color = COLOR.RED;
 }
