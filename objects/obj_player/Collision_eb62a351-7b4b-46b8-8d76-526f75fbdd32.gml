@@ -8,3 +8,5 @@ with (other) {
 }
 
 global.hit_checkpoint = true;
+
+spt_checkpoint_notice();
