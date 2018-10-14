@@ -38,6 +38,14 @@ if (player_control != false)
 			audio_play_sound(sfx_jump, 1, false);
 			}
 		}
+		
+		if (!in_air) && (place_free(x,y+sign(vsp))) && (shape == SHAPE.TRIANGLE){
+			slamming = true;
+		}
+		
+		if(slamming) {
+			image_yscale = -1;
+		}
 
 		// Releasing jump and triangle slam
 		if (keyboard_check_released(vk_space)) && (in_air) {
@@ -158,6 +166,7 @@ if (shape == SHAPE.SQUARE) && (!trans_on) && (key_shift) {
 		shape = SHAPE.TRIANGLE;
 		next_sprite_index = spr_player_triangle;
 		trans_on = true;
+		slamming = true;
 	}
 	else if (shp_circle == SHAPE.CIRCLE) {
 		shape = SHAPE.CIRCLE;
