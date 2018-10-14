@@ -7,3 +7,6 @@ global.hit_checkpoint = false;
 global.cp_color = COLOR.WHITE;
 global.music = 0;
 global.last_room = rm_level_boss;
+global.checkpoint_cntr = 0;
+global.checkpoint_cntr_max = 60;
+global.checkpoint_text_active = false;
